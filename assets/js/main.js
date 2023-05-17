@@ -274,7 +274,7 @@ var swiper = new Swiper(".slide-ceo", {
     prevEl: ".swiper-button-prev",
   },
   autoplay: {
-    delay: 7000,
+    delay: 10000,
     disableOnInteraction: false
   }
 });

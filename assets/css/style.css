@@ -201,15 +201,7 @@ h6 {
   color: #fff;
 }
 
-@media (max-width: 991px) {
-  .mobile-nav-toggle {
-    display: block;
-  }
 
-  .navbar ul {
-    display: none;
-  }
-}
 
 .navbar-mobile {
   position: fixed;
@@ -443,6 +435,8 @@ h6 {
   height: 100%;
   object-fit: cover;
 }
+
+
 
 .banner h3 {
   font-family: 'Poppins';

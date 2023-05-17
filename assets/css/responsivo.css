@@ -2,6 +2,21 @@
 
 @media (max-width: 768px) {
 
+    body {
+        overflow-x: hidden;
+      }
+    #header {
+        width: 100vw;
+    }
+
+    .mobile-nav-toggle {
+        display: block;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
 
     /*--------------------------------------------------------------
 # Hero Section
@@ -128,16 +143,25 @@
         width: 100%;
         text-align: center;
         margin: 0 auto;
-
+        align-self: start;
+        line-height: 1.5rem;
+        padding: 20px;
     }
 
+    .slide-ceo{
+        border: 2px solid red;
+        height: 100vh;
+      }
+
     .section-threee .slide-eduardo {
-        background-image: url(../img/PERSONA-01-MOBILE.jpg);
+        background-image: url(../img/eduardomobile.jpg);
+        background-size: cover;
 
     }
 
     .section-threee .slide-carlos {
-        background-image: url(../img/PERSONA-02.jpg);
+        background-image: url(../img/carlosmobile.jpg);
+        background-size: cover;
 
     }
 
