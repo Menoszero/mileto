@@ -5,7 +5,8 @@ body {
   font-family: 'Poppins', sans-serif;
   color: #444444;
   background-color: #FFFFFF;
-  background-image: url("../img/Objeto\ Inteligente\ de\ Vetor.svg");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23141613' stroke-width='0.5'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23FFFFFF'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+  overflow-x: hidden;
 }
 
 a {
@@ -25,88 +26,6 @@ h4,
 h5,
 h6 {
   font-family: 'Poppins', sans-serif;
-}
-
-/*--------------------------------------------------------------
-# Preloader
---------------------------------------------------------------*/
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 9999;
-  overflow: hidden;
-  background: #37517e;
-}
-
-#preloader:before {
-  content: "";
-  position: fixed;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
-  border: 6px solid #37517e;
-  border-top-color: #fff;
-  border-bottom-color: #fff;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  -webkit-animation: animate-preloader 1s linear infinite;
-  animation: animate-preloader 1s linear infinite;
-}
-
-@-webkit-keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
-.back-to-top {
-  position: fixed;
-  visibility: hidden;
-  opacity: 0;
-  right: 15px;
-  bottom: 15px;
-  z-index: 996;
-  background: #47b2e4;
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
-  transition: all 0.4s;
-}
-
-.back-to-top i {
-  font-size: 24px;
-  color: #fff;
-  line-height: 0;
-}
-
-.back-to-top:hover {
-  background: #6bc1e9;
-  color: #fff;
-}
-
-.back-to-top.active {
-  visibility: visible;
-  opacity: 1;
 }
 
 /*--------------------------------------------------------------
@@ -265,15 +184,6 @@ h6 {
   visibility: visible;
 }
 
-@media (max-width: 1366px) {
-  .navbar .dropdown .dropdown ul {
-    left: -90%;
-  }
-
-  .navbar .dropdown .dropdown:hover>ul {
-    left: -100%;
-  }
-}
 
 /**
 * Mobile Navigation 
@@ -392,20 +302,22 @@ h6 {
 #hero {
   width: 100vw;
   height: 100vh;
-  background: url("../img/bg-hero.jpg") no-repeat center;
+  background: url("../img/DESKTOP-01.jpg") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
+
+
 }
 
-#hero:before {
+/* #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.712);
   position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
-}
+} */
 
 #hero .container {
   padding-top: 72px;
@@ -430,31 +342,37 @@ h6 {
 }
 
 #hero .circulo-p {
+  background-image: url(../img/DESKTOP-02.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
   width: 300px;
   height: 300px;
   border: 20px solid #a3dbf0b9;
-
   border-radius: 50%;
   position: absolute;
-  top: 200px;
-  right: 80px;
-  background-color: #fff;
-  mix-blend-mode: overlay;
-  animation-duration: 10s;
+  top: 130px;
+  right: 200px;
+  background-color: #f3f3f3;
+  animation-duration: 5s;
   animation-name: moverpequeno;
 }
 
 #hero .circulo-g {
-  width: 400px;
-  height: 400px;
+  background-image: url(../img/DESKTOP-02.jpg);
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: center;
+  width: 380px;
+  height: 380px;
   border: 20px solid #a3dbf0b9;
   border-radius: 50%;
   position: absolute;
-  top: 280px;
-  right: 330px;
+  top: 250px;
+  right: 440px;
   background-color: #fff;
-  mix-blend-mode: overlay;
-  animation-duration: 10s;
+
+  animation-duration: 5s;
   animation-name: movergrande;
 }
 
@@ -464,7 +382,7 @@ h6 {
   }
 
   to {
-    top: 280px;
+    top: 250px;
   }
 }
 
@@ -474,59 +392,13 @@ h6 {
   }
 
   to {
-    top: 200px;
+    top: 130px;
   }
 }
 
 
 
-@media (max-width: 991px) {
-  #hero {
-    height: 100vh;
-    text-align: center;
-  }
 
-  #hero .animated {
-    -webkit-animation: none;
-    animation: none;
-  }
-
-  #hero .hero-img {
-    text-align: center;
-  }
-
-  #hero .hero-img img {
-    width: 50%;
-  }
-}
-
-@media (max-width: 768px) {
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-
-  #hero .hero-img img {
-    width: 70%;
-  }
-}
-
-@media (max-width: 575px) {
-  #hero .hero-img img {
-    width: 80%;
-  }
-
-  #hero .btn-get-started {
-    font-size: 16px;
-    padding: 10px 24px 11px 24px;
-  }
-}
 
 @-webkit-keyframes up-down {
   0% {
@@ -549,57 +421,40 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Sections General
+# Banner
 --------------------------------------------------------------*/
-section {
-  padding: 60px 0;
-  overflow: hidden;
+
+.swiper {
+  width: 100%;
+  height: 100%;
 }
 
-.section-bg {
-  background-color: #f3f5fa;
-}
-
-.section-title {
+.swiper-slide {
   text-align: center;
-  padding-bottom: 30px;
+  /* font-size: 18px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.section-title h2 {
-  font-size: 32px;
-  font-weight: bold;
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner h3 {
+  font-family: 'Poppins';
   text-transform: uppercase;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  position: relative;
-  color: #37517e;
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: 1rem;
+  line-height: 1.7rem;
+  color: #3e6580;
 }
 
-.section-title h2::before {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 120px;
-  height: 1px;
-  background: #ddd;
-  bottom: 1px;
-  left: calc(50% - 60px);
-}
 
-.section-title h2::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 40px;
-  height: 3px;
-  background: #47b2e4;
-  bottom: 0;
-  left: calc(50% - 20px);
-}
-
-.section-title p {
-  margin-bottom: 0;
-}
 
 
 
@@ -644,14 +499,14 @@ section {
   font-weight: 300;
   width: 75%;
   color: #52738a;
-  
+
 
 }
 
 .about .img-section-2 {
-  background-image: url(../img/_img01.png);
+  background-image: url(../img/CASA-BARCO.jpg);
   background-position: center;
-  background-size: contain;
+  background-size: 700px;
   background-repeat: no-repeat;
   width: 400px;
   height: 400px;
@@ -668,29 +523,35 @@ section {
 /*--------------------------------------------------------------
 # Section Three
 --------------------------------------------------------------*/
-.section-threee{
-  background-image: url(../img/Retângulo\ 5.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 700px;
-}
-.section-threee .contant {
+.section-threee {
+
+  height: 100vh;
+  width: 100%;
+  border: 2px solid red;
   display: flex;
+  align-items: center;
   justify-content: center;
+  align-content: center;
   position: relative;
 
 }
 
-.section-threee .section-left{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  justify-items: center;
-  width: 80%;
+.section-threee .swiper {
+  width: 100%;
+  height: 100%;
 }
 
-.section-threee .section-left h4{
+
+
+.section-threee .swiper-slide img {
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.section-threee p {
   font-family: 'Poppins';
   text-transform: uppercase;
   font-weight: 300;
@@ -699,20 +560,280 @@ section {
   letter-spacing: 0.4rem;
   line-height: 1.7rem;
   color: #3e6580;
-  margin-top: 100px;
+  width: 35%;
+  margin-right: 550px;
+  text-align: left;
+
 }
 
-.section-threee .circulo-personal{
+.section-threee .circulo-personal {
   width: 600px;
   height: 600px;
-  border: 55px solid rgba(158, 164, 165, 0.594);
+  border: 50px solid rgba(32, 25, 25, 0.286);
   border-radius: 50%;
   position: absolute;
-  right: 20px;
-  
+  right: 60px;
+
 }
-.section-threee img{
+
+/* .section-threee img {
   position: absolute;
   bottom: -150px;
   width: 15%;
+} */
+
+.section-threee .slide-eduardo {
+  background-image: url(../img/EDUARDO.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.section-threee .slide-carlos {
+  background-image: url(../img/CARLOS.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Section Four
+--------------------------------------------------------------*/
+.section-four {
+  background-color: #fff;
+}
+
+.section-four h3 {
+  font-family: 'Poppins';
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: 1rem;
+  line-height: 1.7rem;
+  color: #3e6580;
+
+}
+
+.section-four .content .img-section-four {
+  width: 80%;
+  border: 20px solid rgba(158, 164, 165, 0.594);
+  border-radius: 50%;
+}
+
+.section-four .content h4 {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 1.5rem;
+  letter-spacing: 0.4rem;
+  line-height: 1.7rem;
+  color: #3e6580;
+  text-transform: uppercase;
+}
+
+.section-four .content p {
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 1rem;
+
+  line-height: 24px;
+  color: #3e6580;
+  margin-top: 1rem;
+  width: 80%;
+  padding: 20px 0px;
+}
+
+.section-four .img-casa-roque {
+  background-image: url(../img/CASA-ROQUE.jpg);
+  background-position: center;
+  background-size: 700px;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+  border: 20px solid #cae1e9b9;
+  border-radius: 50%;
+}
+
+.section-four .img-casa-barco {
+  background-image: url(../img/CASA-BARCO.jpg);
+  background-position: center;
+  background-size: 700px;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+  border: 20px solid #cae1e9b9;
+  border-radius: 50%;
+}
+
+.section-four .img-casa-oliver {
+  background-image: url(../img/CASA-OLIVER.jpg);
+  background-position: center;
+  background-size: 700px;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+  border: 20px solid #cae1e9b9;
+  border-radius: 50%;
+}
+
+.section-four .img-casa-pernambuco {
+  background-image: url(../img/CASA-PERNAMBUCO.jpg);
+  background-position: center;
+  background-size: 700px;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+  border: 20px solid #cae1e9b9;
+  border-radius: 50%;
+}
+
+.section-four .img-casa-giraffas {
+  background-image: url(../img/CASA-GIRAFFA.jpg);
+  background-position: center;
+  background-size: 700px;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+  border: 20px solid #cae1e9b9;
+  border-radius: 50%;
+
+}
+
+.section-four .mySwiper .swiper-slide img {
+  width: 100%;
+
+
+}
+
+/*--------------------------------------------------------------
+# Section Fiver
+--------------------------------------------------------------*/
+
+.section-fiver {
+  background-image: url(../img/BG-001.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+
+.section-fiver .content h4 {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 1.5rem;
+  letter-spacing: 0.4rem;
+  line-height: 1.7rem;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.section-fiver .content p {
+  font-family: 'Poppins';
+  text-transform: uppercase;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1rem;
+  letter-spacing: 0.4rem;
+  line-height: 1.7rem;
+  color: #ffffff;
+  margin-top: 100px;
+  width: 70%;
+}
+
+
+
+/*--------------------------------------------------------------
+# Section Six
+--------------------------------------------------------------*/
+
+.section-six {
+  background-color: #fff;
+}
+
+.section-six .content .img1,
+.img2 {
+  width: 60%;
+  border: 10px solid rgba(158, 164, 165, 0.594);
+  border-radius: 50%;
+}
+
+.section-six .content .img2 {
+  margin-left: 150px;
+}
+
+.section-six .content h4 {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 1.5rem;
+  letter-spacing: 0.4rem;
+  line-height: 1.7rem;
+  color: #3e6580;
+  text-transform: uppercase;
+}
+
+
+.section-six .content p {
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 1rem;
+
+  line-height: 2rem;
+  color: #3e6580;
+  margin-top: 1rem;
+  width: 80%;
+  padding: 20px 0px;
+}
+
+/*--------------------------------------------------------------
+# Section Seven
+--------------------------------------------------------------*/
+.section-seven {
+  background-color: #86979a;
+}
+
+.section-seven .form .form-label {
+  font-size: 1rem;
+  font-family: 'Poppins';
+  font-weight: 300;
+  color: #000;
+  letter-spacing: 0.4rem;
+  margin-left: 50px;
+  margin-top: -20px;
+  padding: 0px 20px;
+  position: absolute;
+  background-color: #86979a;
+}
+
+.section-seven .form .form-control {
+  border: 1px solid #fff;
+  background-color: transparent;
+  height: 40px;
+  border-radius: 15px;
+}
+
+.section-seven .form .form-mensagem {
+  border: 2px solid #fff;
+  background-color: transparent;
+  height: 150px;
+  border-radius: 20px;
+}
+
+.section-seven .form button {
+  border: 2px solid #fff;
+  background-color: #fff;
+  color: #929697;
+  height: 50px;
+  width: 100%;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+.section-seven .form button:hover {
+  border: 2px solid #fdfdfd;
+  background-color: #000000;
+  color: #f8fdfe;
 }
