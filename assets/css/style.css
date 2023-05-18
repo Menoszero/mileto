@@ -1,6 +1,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
   font-family: 'Poppins', sans-serif;
   color: #444444;
@@ -107,7 +108,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #ffffff;
+  color: #47b2e4;
 }
 
 .navbar .getstarted,
@@ -144,7 +145,7 @@ h6 {
 }
 
 .navbar .dropdown ul li {
-  min-width: 400px;
+  min-width: 200px;
 }
 
 .navbar .dropdown ul a {
@@ -173,7 +174,7 @@ h6 {
 
 .navbar .dropdown .dropdown ul {
   top: 0;
-  left: calc(100% - 40px);
+  left: calc(100% - 30px);
   visibility: hidden;
 }
 
@@ -184,6 +185,15 @@ h6 {
   visibility: visible;
 }
 
+@media (max-width: 1366px) {
+  .navbar .dropdown .dropdown ul {
+    left: -90%;
+  }
+
+  .navbar .dropdown .dropdown:hover>ul {
+    left: -100%;
+  }
+}
 
 /**
 * Mobile Navigation 
@@ -201,7 +211,15 @@ h6 {
   color: #fff;
 }
 
+@media (max-width: 991px) {
+  .mobile-nav-toggle {
+    display: block;
+  }
 
+  .navbar ul {
+    display: none;
+  }
+}
 
 .navbar-mobile {
   position: fixed;
@@ -287,7 +305,6 @@ h6 {
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
