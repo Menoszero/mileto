@@ -242,4 +242,23 @@
 
 
 
-@media (min-width: 1980px) {}
+@media (min-width: 1980px) {
+    #hero .circulo-p {
+  
+        width: 600px;
+        height: 600px;
+       
+        top: 130px;
+        right: 230px;
+        
+      }
+      
+      #hero .circulo-g {
+       
+        top: 450px;
+        right: 750px;
+        width: 480px;
+        height: 480px;
+      
+      }
+}
