@@ -13,6 +13,9 @@
         width: 100vw;
     }
 
+    #header .logo img {
+        max-height: 30px;
+      }
     /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -33,16 +36,17 @@
 
     #hero h1 {
         /* margin: 0 0 500px 0; */
-        font-size: 2.8em;
+        font-size: 2.5em;
         font-weight: 300;
         line-height: 56px;
         color: #325b78;
         width: 100%;
         text-align: center;
+        padding-top: 90px;
     }
 
     #hero h2 {
-        color: rgba(255, 255, 255, 0.6);
+        color: #fff;
         margin-top: 30px;
         font-size: 1.8em;
         font-weight: 300;
@@ -200,10 +204,9 @@
 # Section Fiver
 --------------------------------------------------------------*/
     .section-fiver {
-        background:
-            linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.112)),
-            url(../img/BG-001.jpg) no-repeat;
-    }
+        background-image: url(../img/BANNER-MOBILIE-PARA-TEXTO.jpg);
+        background-size: 100%;
+    }    
 
 
     .section-fiver .content p {
@@ -262,3 +265,5 @@
       
       }
 }
+
+
