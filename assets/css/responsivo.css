@@ -1,12 +1,16 @@
+
+
+
 /* Responsivo Celular  */
 
 @media (max-width: 768px) {
 
     body {
         overflow-x: hidden;
-      }
+    }
+
     #header {
-        width: 100vw;
+        width: 100%;
     }
 
     .mobile-nav-toggle {
@@ -27,7 +31,8 @@
         text-align: top;
         background-image: url(../img/MOBILE.jpg);
         background-attachment: none;
-        background-size: cover;
+        background-size: 100%;
+        background-position: top;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -52,6 +57,8 @@
         font-weight: 300;
         width: 100%;
         text-align: center;
+        padding-top: 250px;
+
     }
 
     #hero .animated {
@@ -129,9 +136,13 @@
 # Section Three
 --------------------------------------------------------------*/
     .section-threee {
-        width: 90%;
+
         display: flex;
         flex-direction: column;
+    }
+
+    .section-threee .content {
+        width: 90%;
     }
 
     .section-threee .circulo-personal {
@@ -148,10 +159,9 @@
         padding: 20px;
     }
 
-    .slide-ceo{
-        border: 2px solid red;
+    .slide-ceo {
         height: 100vh;
-      }
+    }
 
     .section-threee .slide-eduardo {
         background-image: url(../img/eduardomobile.jpg);
@@ -198,6 +208,11 @@
     /*--------------------------------------------------------------
 # Section Fiver
 --------------------------------------------------------------*/
+    .section-fiver {
+        background:
+            linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.112)),
+            url(../img/BG-001.jpg) no-repeat;
+    }
 
 
     .section-fiver .content p {
@@ -208,7 +223,9 @@
     /*--------------------------------------------------------------
 # Section Six
 --------------------------------------------------------------*/
-    .section-six {
+
+
+    .section-six .content {
         width: 90%;
         margin: 0 auto;
     }
@@ -231,59 +248,10 @@
     }
 }
 
+/* @media   (min-width: 768px){ 
+   
+
+} */
 
 
-@media (min-width: 1980px) {
-
-
-    #hero {
-        height: 100vh;
-        text-align: top;
-        background-image: url(../img/MOBILE.jpg);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: start;
-        align-content: center;
-    }
-
-    #hero h1 {
-        margin: 0 0 400px 0;
-        font-size: 48px;
-        font-weight: 300;
-        line-height: 56px;
-        color: #325b78;
-        width: 100%;
-        text-align: center;
-    }
-
-    #hero h2 {
-        color: rgba(255, 255, 255, 0.6);
-        margin-top: 30px;
-        font-size: 24px;
-        font-weight: 300;
-        width: 100%;
-        text-align: center;
-    }
-
-    #hero .animated {
-        -webkit-animation: none;
-        animation: none;
-    }
-
-    #hero .hero-img {
-        text-align: center;
-    }
-
-    #hero .hero-img img {
-        width: 50%;
-    }
-
-    #hero .circulo-p {
-        display: none;
-    }
-
-    #hero .circulo-g {
-        display: none;
-    }
-}
+@media (min-width: 1980px) {}
