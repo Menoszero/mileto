@@ -1,17 +1,16 @@
 /* Responsivo Celular  */
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
 
-    body {
-        margin: 0 auto;
-        overflow-x: hidden;
-    }
+  
+    .mobile-nav-toggle {
+        display: block;
+      }
+    
+      .navbar ul {
+        display: none;
+      }
 
-   
-
-    #header {
-        width: 100vw;
-    }
 
     #header .logo img {
         max-height: 30px;
@@ -21,12 +20,12 @@
 --------------------------------------------------------------*/
     #hero {
 
-        height: 100vh;
+        height:100vh;
         text-align: top;
         background-image: url(../img/MOBILE.jpg);
         background-attachment: none;
         background-size: 100%;
-        background-position: top;
+        background-position: center;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -267,3 +266,16 @@
 }
 
 
+@media (max-width: 1366px) {
+    .navbar .dropdown .dropdown ul {
+      left: -90%;
+    }
+  
+    .navbar .dropdown .dropdown:hover>ul {
+      left: -100%;
+    }
+  }
+
+  @media (max-width: 991px) {
+   
+  }

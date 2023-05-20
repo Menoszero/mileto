@@ -212,15 +212,7 @@ h6 {
   color: #fff;
 }
 
-@media (max-width: 991px) {
-  .mobile-nav-toggle {
-    display: block;
-  }
 
-  .navbar ul {
-    display: none;
-  }
-}
 
 .navbar-mobile {
   position: fixed;
@@ -474,6 +466,9 @@ h6 {
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
+.about{
+  position: relative;
+}
 .about .contant {
   display: flex;
   justify-content: center;
@@ -529,8 +524,8 @@ h6 {
   border: 20px solid #cae1e9b9;
   border-radius: 50%;
   position: absolute;
-  top: 350px;
-  right: 100px;
+  top: 150px;
+  right: 250px;
   z-index: 88;
 
 }
