@@ -308,6 +308,7 @@ h6 {
   background: url("../img/DESKTOP-02.jpg") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
+  position: relative;
 
 
 }
@@ -337,7 +338,7 @@ h6 {
 }
 
 #hero h2 {
-  color:  #fff;
+  color: #fff;
   margin-top: 30px;
   font-size: 24px;
   font-weight: 200;
@@ -357,8 +358,8 @@ h6 {
   top: 130px;
   right: 200px;
   background-color: #f3f3f3;
-  animation-duration: 5s;
-  animation-name: moverpequeno;
+  /* animation-duration: 5s;
+  animation-name: moverpequeno; */
 }
 
 #hero .circulo-g {
@@ -375,8 +376,8 @@ h6 {
   right: 440px;
   background-color: #fff;
 
-  animation-duration: 5s;
-  animation-name: movergrande;
+  /* animation-duration: 5s;
+  animation-name: movergrande; */
 }
 
 @keyframes movergrande {
@@ -466,9 +467,10 @@ h6 {
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
-.about{
+.about {
   position: relative;
 }
+
 .about .contant {
   display: flex;
   justify-content: center;
@@ -615,6 +617,7 @@ h6 {
 --------------------------------------------------------------*/
 .section-four {
   background-color: #fff;
+  position: relative;
 }
 
 .section-four h3 {
@@ -627,6 +630,8 @@ h6 {
   color: #3e6580;
 
 }
+
+
 
 .section-four .content .img-section-four {
   width: 80%;
@@ -642,6 +647,7 @@ h6 {
   line-height: 1.7rem;
   color: #3e6580;
   text-transform: uppercase;
+
 }
 
 .section-four .content p {
@@ -656,12 +662,51 @@ h6 {
   padding: 20px 0px;
 }
 
+.section-four .wrapper-img-casa {
+  position: relative;
+}
 
 .section-four .mySwiper .swiper-slide img {
   width: 100%;
 
 
 }
+
+.section-four .circulo-projetos-p {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 15px solid rgba(214, 206, 206, 0.596);
+  background-color: transparent;
+  position: absolute;
+
+  top: 100px;
+  left: 150px;
+  /* animation-name: skate_01;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; */
+
+  z-index: 99;
+}
+
+
+.section-four .circulo-projetos-g {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 15px solid rgba(214, 206, 206, 0.596);
+  background-color: transparent;
+  position: absolute;
+  top: -20px;
+  left: 350px;
+  /* animation-name: skate_01;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; */
+
+  z-index: 99;
+}
+
+
 
 /*--------------------------------------------------------------
 # Section Fiver
