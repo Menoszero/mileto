@@ -682,9 +682,9 @@ h6 {
 
   top: 100px;
   left: 150px;
-  /* animation-name: skate_01;
+  animation-name: skate_01;
   animation-duration: 5s;
-  animation-iteration-count: infinite; */
+  animation-iteration-count: infinite;
 
   z-index: 99;
 }
@@ -699,13 +699,33 @@ h6 {
   position: absolute;
   top: -20px;
   left: 350px;
-  /* animation-name: skate_01;
+  animation-name: skate_01;
   animation-duration: 5s;
-  animation-iteration-count: infinite; */
-
+  animation-iteration-count: infinite;
   z-index: 99;
 }
+@keyframes skate_01 {
+  0% {
+    transform: translateY(400px);
+  }
 
+  50% {
+    transform: translateY(00px);
+  }
+  100% {
+    transform: translateY(400px);
+  }
+}
+
+
+
+
+
+
+
+.section-four .order-texto-projeto{
+  z-index: 999;
+}
 
 
 /*--------------------------------------------------------------
