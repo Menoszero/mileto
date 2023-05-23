@@ -1,26 +1,20 @@
 /* Responsivo Celular  */
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
 
-  
-    .mobile-nav-toggle {
-        display: block;
-      }
-    
-      .navbar ul {
-        display: none;
-      }
+
 
 
     #header .logo img {
         max-height: 30px;
-      }
+    }
+
     /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
     #hero {
 
-        height:100vh;
+        height: 100vh;
         text-align: top;
         background-image: url(../img/MOBILE.jpg);
         background-attachment: none;
@@ -175,6 +169,7 @@
     .section-for {
         width: 90%;
         margin: 0 auto;
+        overflow-x: hidden;
     }
 
     .section-four .mySwiper .swiper-slide img {
@@ -199,13 +194,28 @@
         width: 100%;
     }
 
+    .section-four .circulo-projetos-p {
+       
+      
+        top: 100px;
+        left: 50px;
+        
+      }
+      
+      
+      .section-four .circulo-projetos-g {
+       
+        top: -70px;
+        left: 190px;
+     
+      }
     /*--------------------------------------------------------------
 # Section Fiver
 --------------------------------------------------------------*/
     .section-fiver {
         background-image: url(../img/BANNER-MOBILIE-PARA-TEXTO.jpg);
         background-size: 100%;
-    }    
+    }
 
 
     .section-fiver .content p {
@@ -239,6 +249,25 @@
     .section-seven .content .logo-footer {
         padding-left: 60px;
     }
+  
+      .elementor-icon-list-item svg {
+        width:25px;
+        height: 25px;
+        
+      }
+      .elementor-icon-list-item a {
+        font-size: 1rem;
+        font-family: 'Poppins';
+        font-weight: 300;
+        color: #fff;
+        letter-spacing: 0.1rem;
+      }
+      
+      .elementor-icon-list-item a:hover {
+        
+        color: #000;
+       
+      }
 }
 
 
@@ -246,55 +275,58 @@
 
 @media (min-width: 1920px) {
 
-  
-    
+
+
     #hero .circulo-p {
-  
+
         width: 350px;
         height: 350px;
-        
+
         top: 180px;
         right: 350px;
-        
-      }
-      
-      #hero .circulo-g {
-       
+
+    }
+
+    #hero .circulo-g {
+
         top: 360px;
         right: 600px;
         width: 500px;
         height: 500px;
-      
-      }
-      .about .img-section-2 {
-      
+
+    }
+
+    .about .img-section-2 {
+
         top: calc(0% + 350px);
         right: calc(0% + 600px);
-    
-       
-     
-        
-      
-      }
-      
+
+
+
+
+
+    }
+
 }
 
 
 @media (max-width: 1366px) {
     .navbar .dropdown .dropdown ul {
-      left: -90%;
+        left: -90%;
     }
-  
+
     .navbar .dropdown .dropdown:hover>ul {
-      left: -100%;
+        left: -100%;
     }
-  }
+}
 
-  @media (max-width: 991px) {
-   
-  }
+@media (max-width: 991px) {
+    .mobile-nav-toggle {
+        display: block;
+    }
 
+    .navbar ul {
+        display: none;
+    }
 
-
-
-  
+}
