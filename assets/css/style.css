@@ -33,7 +33,7 @@ h6 {
 --------------------------------------------------------------*/
 #header {
   transition: all 0.5s;
-  z-index: 997;
+  z-index: 1997;
   padding: 15px 0;
   background: #48494a;
 
@@ -618,6 +618,7 @@ h6 {
 .section-four {
   background-color: #fff;
   position: relative;
+  overflow-x: hidden;
 }
 
 .section-four h3 {
@@ -886,4 +887,18 @@ h6 {
   align-items: center;
   font-size: inherit;
   padding-bottom: calc(33px/2);
+}
+
+.elementor-icon-list-item a {
+  font-size: 1rem;
+  font-family: 'Poppins';
+  font-weight: 300;
+  color: #fff;
+  letter-spacing: 0.4rem;
+}
+
+.elementor-icon-list-item a:hover {
+  
+  color: #000;
+ 
 }
