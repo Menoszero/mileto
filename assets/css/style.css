@@ -420,6 +420,7 @@ h6 {
   display: flex;
   justify-content: center;
   position: relative;
+  align-items: center;
 
 }
 
