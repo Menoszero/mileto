@@ -158,13 +158,13 @@
     }
 
     .section-threee .slide-eduardo {
-        background-image: url(../img/eduardomobile.jpg);
+        background-image: url(../img/PERSONA-02-MOBILE.jpg);
         background-size: cover;
 
     }
 
     .section-threee .slide-carlos {
-        background-image: url(../img/carlosmobile.jpg);
+        background-image: url(../img/PERSONA-01-MOBILE.jpg);
         background-size: cover;
 
     }
@@ -360,34 +360,36 @@
 }
 
 
-@media (min-width: 1999px) {
+@media (min-width: 1920px) {
     #hero .circulo-p {
         width: 450px;
         height: 450px;
-        top: 400px;
-        right: 440px;
+        top: 200px;
+        right: 240px;
 
     }
 
     #hero .circulo-g {
-        width: 700px;
-        height: 700px;
-        top: 600px;
-        right: 790px;
+        width: 600px;
+        height: 600px;
+        top: 300px;
+        right: 590px;
 
     }
 
     .about .img-section-2 {
 
-
-        top: 300px;
-        right: calc(0% + 800px);
-
-
-
+        width: 550px;
+        height: 550px;
+        top: 250px;
+        right: 400px;
+        background-size: 180%;
 
     }
+
+    .section-threee p {
+       
+        width: 25%;
+      
+    }
 }
-
-
-
