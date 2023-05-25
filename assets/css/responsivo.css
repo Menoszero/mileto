@@ -339,9 +339,16 @@
         position: absolute;
         top: 8vh;
         right: 0;
-        width: 70vw;
+        width: 100vw;
         height: 92vh;
-        background: #23232e;
+        /* background: #23232e; */
+      
+        background: rgba(82, 115, 138, 0.54);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(4.9px);
+        -webkit-backdrop-filter: blur(4.9px);
+        border: 1px solid rgba(82, 115, 138, 0.3);
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
@@ -388,8 +395,8 @@
     }
 
     .section-threee p {
-       
+
         width: 25%;
-      
+
     }
 }
