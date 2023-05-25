@@ -5,8 +5,11 @@
 body {
   font-family: 'Poppins', sans-serif;
   color: #444444;
-  background-color: #FFFFFF;
+  /* background-color: #FFFFFF; */
   overflow-x: hidden;
+  background-image: url(../img/bgvetor.svg);
+ 
+  
 }
 
 a {
@@ -455,7 +458,7 @@ h6 {
 }
 
 .about .img-section-2 {
-  background-image: url(../img/CASAS/CASA-PERNAMBUCO/CASA-PERNAMBUCO.jpg);
+  background-image: url(../img/CASAS/CASA-OLIVER/casa-oliver-04.jpg);
   background-position: top;
   background-size: 700px;
   background-repeat: no-repeat;
@@ -534,14 +537,14 @@ h6 {
 } */
 
 .section-threee .slide-eduardo {
-  background-image: url(../img/ceo02.png);
+  background-image: url(../img/PERSONA-02.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .section-threee .slide-carlos {
-  background-image: url(../img/ceo01.png);
+  background-image: url(../img/PERSONA-01.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
