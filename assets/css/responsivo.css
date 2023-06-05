@@ -47,7 +47,7 @@
         font-weight: 300;
         width: 100%;
         text-align: center;
-        padding-top: 250px;
+        padding-top: 280px;
 
     }
 
@@ -149,23 +149,23 @@
         line-height: 1rem;
         padding: 20px;
         letter-spacing: 0.2rem;
-        line-height: 1.5rem;
+        line-height: 1.3rem;
         padding-top:60px;
     }
 
     .slide-ceo {
-        height: 100vh;
+        height: 110vh;
     }
 
     .section-threee .slide-eduardo {
         background-image: url(../img/PERSONA-02-MOBILE.jpg);
-        background-size: 110%;
+        background-size: contain;
 
     }
 
     .section-threee .slide-carlos {
         background-image: url(../img/PERSONA-01-MOBILE.jpg);
-        background-size: 110%;
+        background-size: contain;
 
     }
 
