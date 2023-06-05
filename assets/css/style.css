@@ -742,7 +742,9 @@ h6 {
 .section-seven {
   background-color: #86979a;
 }
-
+.section-seven .logo-footer{
+  width: 50%;
+}
 .section-seven .form .form-label {
   font-size: 1rem;
   font-family: 'Poppins';

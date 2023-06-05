@@ -256,7 +256,9 @@
     .section-seven .content .logo-footer {
         padding-left: 60px;
     }
-
+    .section-seven .logo-footer{
+        width: 80%;
+      }
     .elementor-icon-list-item svg {
         width: 25px;
         height: 25px;
