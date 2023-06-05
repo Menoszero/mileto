@@ -142,15 +142,15 @@
     }
 
     .section-threee p {
-        width: 100%;
+        width: 90%;
         text-align: center;
         margin: 0 auto;
         align-self: start;
         line-height: 1rem;
-        padding: 20px;
+        /* padding: 20px; */
         letter-spacing: 0.2rem;
         line-height: 1.3rem;
-        padding-top:60px;
+        padding-top:70px;
     }
 
     .slide-ceo {
