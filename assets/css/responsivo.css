@@ -450,3 +450,21 @@
         z-index: 9996;
     }
 }
+
+
+/* iphone 14  */
+
+@media (min-width: 400px) and (max-width:765px) {
+    body {
+        overflow-x: hidden;
+    }
+  
+    #hero h1 {
+      
+        padding-top: 150px;
+    }
+
+    .section-threee p {      
+        padding-top: 200px;
+    }
+}
