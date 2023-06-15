@@ -40,11 +40,12 @@ h6 {
   padding: 15px 0;
   background: #48494a;
 
+
 }
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(69, 90, 105, 0.9);
+  background: #48494a;
 }
 
 #header .logo {
@@ -62,8 +63,9 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 70px;
+  max-height: 60px;
 }
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -95,6 +97,8 @@ h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 500;
+
+  /* color: #86979a; */
   color: #fff;
 
   white-space: nowrap;
@@ -112,7 +116,8 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #ffffff;
+  /* color: #575757; */
+  color: #fff;
 }
 
 .navbar .getstarted,
@@ -742,9 +747,11 @@ h6 {
 .section-seven {
   background-color: #86979a;
 }
-.section-seven .logo-footer{
+
+.section-seven .logo-footer {
   width: 50%;
 }
+
 .section-seven .form .form-label {
   font-size: 1rem;
   font-family: 'Poppins';
