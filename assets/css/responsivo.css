@@ -19,7 +19,7 @@
         height: 100vh;
         text-align: top;
         background-image: url(../img/MOBILE-02.jpg);
-        background-attachment: none;
+        background-attachment: scroll;
         background-size: 100%;
         background-position: top;
         display: flex;
