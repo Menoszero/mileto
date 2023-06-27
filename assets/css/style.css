@@ -37,15 +37,25 @@ h6 {
 #header {
   transition: all 0.5s;
   z-index: 1997;
-  padding: 15px 0;
-  background: #48494a;
+  padding: 30px 0;
+  /* background: #48494a; */
+  background-color: transparent;
+  text-align: center;
+
+  transition: all 0.3s ease;
 
 
+}
+
+#headerheader-scrolled #logo {
+  float: left;
+  margin-left: 20px;
 }
 
 #header.header-scrolled,
 #header.header-inner-pages {
   background: #48494a;
+
 }
 
 #header .logo {
@@ -62,10 +72,23 @@ h6 {
   color: #fff;
 }
 
-#header .logo img {
-  max-height: 60px;
+#header .container .logo-header img {
+  max-height: 50px;
+
 }
 
+#header .logo-scrolled {
+  display: none;
+
+}
+
+.box-logo-header {
+  display: flex;
+
+  align-content: center;
+  justify-content: center;
+  padding: 20px 0px;
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -89,35 +112,52 @@ h6 {
   position: relative;
 }
 
-.navbar a,
-.navbar a:focus {
+.navbar .link,
+.navbar .link:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  padding: 10px 0 10px 75px;
   font-size: 15px;
   font-weight: 500;
 
-  /* color: #86979a; */
-  color: #fff;
+  color: #86979a;
+  /* color: #fff; */
 
   white-space: nowrap;
   transition: 0.3s;
 }
 
-.navbar a i,
-.navbar a:focus i {
+.navbar .link-scrolled,
+.navbar .link-scrolled:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 75px;
+  font-size: 15px;
+  font-weight: 500;
+
+  color: #ffffff;
+  /* color: #fff; */
+
+  white-space: nowrap;
+  transition: 0.3s;
+}
+
+
+.navbar .link i,
+.navbar .link:focus i {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
 }
 
-.navbar a:hover,
+.navbar .link:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover>a {
-  /* color: #575757; */
-  color: #fff;
+.navbar li:hover>.link {
+  color: #575757;
+  /* color: #fff; */
 }
 
 .navbar .getstarted,
@@ -563,6 +603,30 @@ h6 {
 
 }
 
+
+
+.btn-projetos {
+  border: 2px solid #3e6580;
+  background-color: #3e6580;
+  color: #fff;
+  height: 50px;
+  width: 20%;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn-projetos:hover {
+  border: 2px solid #3e6580;
+  background-color: #fff;
+  color: #3e6580;
+
+}
+
+.hidden {
+  opacity: 0;
+  display: none;
+}
 
 
 .section-four .content .img-section-four {

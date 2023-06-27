@@ -93,3 +93,53 @@ navDropdowns.forEach(el => {
     }
   })
 });
+
+
+
+// Obtém o elemento do cabeçalho
+var header = document.getElementById("header");
+var logoScrolled = document.getElementById("logo-scrolled");
+var logoPrincipal = document.getElementById("logo-principal");
+var navegador = document.getElementById("navbar");
+var links = document.querySelectorAll("#navbar link");
+
+// Função para verificar se a página foi rolada
+function checkScroll() {
+  var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+  if (scrollTop > 0) {
+    // Adiciona a classe 'scrolled' ao cabeçalho quando a página é rolada
+    header.classList.add("header-scrolled");
+    logoPrincipal.classList.add("logo-scrolled");
+    logoScrolled.classList.remove("logo-scrolled");
+    header.style.padding = "0px";
+    
+
+  } else {
+    // Remove a classe 'scrolled' quando a página está no topo
+    header.classList.remove("header-scrolled");
+    logoPrincipal.classList.remove("logo-scrolled");
+    logoScrolled.classList.add("logo-scrolled");
+
+  }
+}
+
+// Verifica o scroll quando a página é rolada
+window.addEventListener("scroll", checkScroll);
+
+var toggleButton = document.getElementById("toggleButton");
+var contentBox = document.getElementById("contentBox");
+
+// Função para ocultar/desocultar a div
+function toggleContent() {
+  if (contentBox.classList.contains("hidden")) {
+    // Se a div estiver oculta, mostra ela
+    contentBox.classList.remove("hidden");
+  } else {
+    // Se a div estiver visível, oculta ela
+    contentBox.classList.add("hidden");
+  }
+}
+
+// Adiciona o evento de clique ao botão
+toggleButton.addEventListener("click", toggleContent);
