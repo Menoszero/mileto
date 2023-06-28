@@ -1,18 +1,17 @@
 /* Responsivo Celular  */
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
 
     body {
         overflow-x: hidden;
     }
 
-    #header .logo img {
-        max-height: 30px;
-    }
+
 
     #header #logo-scrolled {
-        display: block;
+        display: inline;
+        width: 30%;
 
     }
 
@@ -26,22 +25,18 @@
         display: flex;
         align-content: center;
         align-content: center;
-        justify-content: space-around;
+        justify-content: space-between;
 
 
     }
 
-    #header {
-        padding: 0px;
-        width: 100vw;
-    }
 
     /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
     #hero {
         width: 100vw;
-        height: 100vh;
+        height: calc(100vh - 80px);
         text-align: top;
         background-image: url(../img/MOBILE-02.jpg);
         background-attachment: scroll;
@@ -76,10 +71,339 @@
         padding-top: 250px;
         bottom: 0;
         position: relative;
-        
+
 
     }
-    .box-subtitulo{
+
+    .box-subtitulo {
+        position: absolute;
+        bottom: 10%;
+    }
+
+    #hero .animated {
+        -webkit-animation: none;
+        animation: none;
+    }
+
+    #hero .hero-img {
+        text-align: center;
+    }
+
+    #hero .hero-img img {
+        width: 50%;
+    }
+
+    #hero .circulo-p {
+        display: none;
+    }
+
+    #hero .circulo-g {
+        display: none;
+    }
+
+    /*--------------------------------------------------------------
+# Banner
+--------------------------------------------------------------*/
+    .banner h3 {
+
+        font-size: 1rem;
+    }
+
+
+
+    /*--------------------------------------------------------------
+# About Us
+--------------------------------------------------------------*/
+
+
+    .about .section-left {
+
+        width: 360px;
+        height: 360px;
+        border: 15px solid rgba(32, 25, 25, 0.286);
+        padding: 15px;
+
+
+    }
+
+    .about .img-section-2 {
+        background-size: 180%;
+        width: 150px;
+        height: 150px;
+        border: 10px solid #cae1e9b9;
+        top: 200px;
+        right: -10px;
+        display: none;
+
+    }
+
+    .about .box-metodo {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+
+    .about .section-left h3 {
+        text-align: center;
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    .about .section-left p {
+        font-size: 1rem;
+        width: 100%;
+        letter-spacing: 0.15rem;
+        text-align: center;
+    }
+
+
+
+    /*--------------------------------------------------------------
+# Section Three
+--------------------------------------------------------------*/
+    .section-threee {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-threee .content {
+        width: 90%;
+    }
+
+    .section-threee .circulo-personal {
+        display: none;
+
+    }
+
+    .section-threee p {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        align-self: start;
+        line-height: 1rem;
+        /* padding: 20px; */
+        letter-spacing: 0.2rem;
+        line-height: 1.3rem;
+        padding-top: 150px;
+    }
+
+    .slide-ceo {
+        height: 110vh;
+    }
+
+    .section-threee .slide-eduardo {
+        background-image: url(../img/PERSONA-02-MOBILE.jpg);
+        background-size: 100%;
+
+    }
+
+    .section-threee .slide-carlos {
+        background-image: url(../img/PERSONA-01-MOBILE.jpg);
+        background-size: 100%;
+
+    }
+
+    /*--------------------------------------------------------------
+# Section Four
+--------------------------------------------------------------*/
+    .section-for {
+        width: 90%;
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+
+    .section-four .mySwiper .swiper-slide img {
+        width: 90%;
+    }
+
+    .section-four .order-imagem-projeto {
+        order: 1;
+    }
+
+    .section-four .order-texto-projeto {
+        order: 2;
+    }
+
+    .section-four .content h4 {
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .section-four .content p {
+        text-align: center;
+        width: 100%;
+    }
+
+    .section-four .circulo-projetos-p {
+
+
+        top: 100px;
+        left: 50px;
+
+    }
+
+
+    .section-four .circulo-projetos-g {
+
+        top: -70px;
+        left: 190px;
+
+    }
+
+    .btn-projetos {
+
+        width: 70%;
+
+    }
+
+    /*--------------------------------------------------------------
+# Section Fiver
+--------------------------------------------------------------*/
+    .section-fiver {
+        background-image: url(../img/BANNER-MOBILIE-PARA-TEXTO.jpg);
+        background-size: 100%;
+    }
+
+
+    .section-fiver .content p {
+        text-align: center;
+        width: 100%;
+    }
+
+    /*--------------------------------------------------------------
+# Section Six
+--------------------------------------------------------------*/
+
+
+    .section-six .content {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .section-six .content h4 {
+        text-align: center;
+    }
+
+
+    .section-six .content p {
+        text-align: center;
+        width: 100%;
+    }
+
+    /*--------------------------------------------------------------
+# Section Seven
+--------------------------------------------------------------*/
+    .section-seven .content .logo-footer {
+        padding-left: 60px;
+    }
+
+    .section-seven .logo-footer {
+        width: 80%;
+    }
+
+    .elementor-icon-list-item svg {
+        width: 25px;
+        height: 25px;
+
+    }
+
+    .elementor-icon-list-item a {
+        font-size: 1rem;
+        font-family: 'Poppins';
+        font-weight: 300;
+        color: #fff;
+        letter-spacing: 0.1rem;
+    }
+
+    .elementor-icon-list-item a:hover {
+
+        color: #000;
+
+    }
+}
+
+@media (min-width: 768px) and (max-width:1024px) {
+
+
+    body {
+        overflow-x: hidden;
+    }
+
+
+
+    #header #logo-scrolled {
+        display: inline;
+        width: 30%;
+
+    }
+
+    #header #logo-principal {
+        display: none;
+
+    }
+
+    #header .box-logo-header {
+        background-color: #48494a;
+        display: flex;
+        align-content: center;
+        align-content: center;
+        justify-content: space-between;
+
+
+    }
+
+    #header {
+        width: 100%;
+  
+    }
+
+    /*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+    #hero {
+        width: 100vw;
+        height: calc(100vh - 80px);
+        text-align: top;
+        background-image: url(../img/MOBILE-02.jpg);
+        background-attachment: scroll;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        align-content: center;
+        position: relative;
+    }
+
+    #hero h1 {
+        /* margin: 0 0 500px 0; */
+        font-size: 2.5em;
+        font-weight: 300;
+        line-height: 40px;
+        color: #325b78;
+        width: 100%;
+        text-align: center;
+        padding-top: 90px;
+    }
+
+    #hero h2 {
+        color: #fff;
+        /* margin-top: 40px; */
+        font-size: 1.5em;
+        font-weight: 300;
+        width: 100%;
+        text-align: center;
+        padding-top: 250px;
+        bottom: 0;
+        position: relative;
+
+
+    }
+
+    .box-subtitulo {
         position: absolute;
         bottom: 10%;
     }
@@ -329,52 +653,13 @@
 }
 
 
-@media (min-width: 1920px) {
-    #hero .circulo-p {
-        width: 450px;
-        height: 450px;
-        top: 200px;
-        right: 240px;
-
-    }
-
-    #hero .circulo-g {
-        width: 600px;
-        height: 600px;
-        top: 300px;
-        right: 590px;
-
-    }
-
-    .about .img-section-2 {
-
-        width: 550px;
-        height: 550px;
-        top: 250px;
-        right: 400px;
-        background-size: 180%;
-
-    }
-
-    .section-threee p {
-
-        width: 25%;
-
-    }
-}
 
 
 
-@media (min-width: 1280px) and (max-width: 1366px) {
-    .navbar .dropdown .dropdown ul {
-        left: -90%;
-    }
 
-    .navbar .dropdown .dropdown:hover>ul {
-        left: -100%;
-    }
-}
-
+/*--------------------------------------------------------------
+  # Mobile Navigation
+  --------------------------------------------------------------*/
 @media (min-width: 1280px) {
 
     .mobile-nav-show,
@@ -383,9 +668,6 @@
     }
 }
 
-/*--------------------------------------------------------------
-  # Mobile Navigation
-  --------------------------------------------------------------*/
 @media (max-width: 1279px) {
     .navbar {
         position: fixed;
@@ -401,7 +683,8 @@
     .navbar ul {
         position: absolute;
         inset: 0;
-        padding: 40px 0 150px 0;
+        margin: 0 auto;
+        padding: 0px 50px 50px 0;
         margin: 0;
         background: rgba(0, 0, 0, 0.8);
         overflow-y: auto;
@@ -420,7 +703,7 @@
         justify-content: space-between;
         padding: 30px 20px;
         font-family: 'Poppins';
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 500;
         color: rgba(255, 255, 255, 0.7);
         white-space: nowrap;
@@ -460,7 +743,7 @@
     .mobile-nav-show {
         position: relative;
         color: #fff;
-        font-size: 40px;
+        font-size: 32px;
         cursor: pointer;
         line-height: 0;
         transition: 0.5s;
@@ -470,7 +753,7 @@
 
     .mobile-nav-hide {
         color: #fff;
-        font-size: 40px;
+        font-size: 32px;
         cursor: pointer;
         line-height: 0;
         transition: 0.5s;
@@ -498,19 +781,48 @@
 }
 
 
-/* iphone 14  */
+@media (min-width: 1920px) {
+    #hero .circulo-p {
+        width: 450px;
+        height: 450px;
+        top: 200px;
+        right: 240px;
 
-@media (min-width: 400px) and (max-width:765px) {
-    body {
-        overflow-x: hidden;
     }
 
-    #hero h1 {
+    #hero .circulo-g {
+        width: 600px;
+        height: 600px;
+        top: 300px;
+        right: 590px;
 
-        padding-top: 150px;
+    }
+
+    .about .img-section-2 {
+
+        width: 550px;
+        height: 550px;
+        top: 250px;
+        right: 400px;
+        background-size: 180%;
+
     }
 
     .section-threee p {
-        padding-top: 200px;
+
+        width: 25%;
+
     }
 }
+
+
+/* 
+@media (min-width: 1280px) and (max-width: 1366px) {
+    .navbar .dropdown .dropdown ul {
+        left: -90%;
+    }
+
+    .navbar .dropdown .dropdown:hover>ul {
+        left: -100%;
+    }
+} */

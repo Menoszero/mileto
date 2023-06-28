@@ -75,13 +75,14 @@ h6 {
 
 #header .container .logo-header img {
   max-height: 50px;
-
+  padding-left: 20px;
 }
 
 #header .logo-scrolled {
   display: none;
 
 }
+
 
 .box-logo-header {
   display: flex;
@@ -122,7 +123,7 @@ h6 {
   font-size: 15px;
   font-weight: 500;
 
-  color: #86979a;
+  color: #365d72;
   /* color: #fff; */
 
   white-space: nowrap;
@@ -161,7 +162,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>.link {
-  color: #575757;
+  color: #2081b5;
 
   /* color: #fff; */
 }
@@ -327,12 +328,12 @@ h6 {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border: 20px solid #a3dbf0b9;
   border-radius: 50%;
   position: absolute;
-  top: 130px;
+  top: 150px;
   right: 200px;
   background-color: #f3f3f3;
   /* animation-duration: 5s;
@@ -350,7 +351,7 @@ h6 {
   border-radius: 50%;
   position: absolute;
   top: 250px;
-  right: 440px;
+  right: 400px;
   background-color: #fff;
 
   /* animation-duration: 5s;

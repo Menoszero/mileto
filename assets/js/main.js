@@ -113,6 +113,8 @@ function checkScroll() {
     logoPrincipal.classList.add("logo-scrolled");
     logoScrolled.classList.remove("logo-scrolled");
     header.style.padding = "0px";
+    header.style.height = "80px";
+    header.style.margin = "0px"
 
     links.forEach(function (links) {
       links.classList.replace("link", "link-scrolled");
