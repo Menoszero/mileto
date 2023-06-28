@@ -31,6 +31,11 @@
 
     }
 
+    #header {
+        padding: 0px;
+        width: 100vw;
+    }
+
     /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -40,8 +45,8 @@
         text-align: top;
         background-image: url(../img/MOBILE-02.jpg);
         background-attachment: scroll;
-        background-size: 100%;
-        background-position: top;
+        background-size: cover;
+        background-position: center;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -67,7 +72,7 @@
         font-weight: 300;
         width: 100%;
         text-align: center;
-        padding-top: 280px;
+        padding-top: 430px;
 
     }
 
@@ -128,6 +133,13 @@
 
     }
 
+    .about .box-metodo {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+
     .about .section-left h3 {
         text-align: center;
         font-size: 1rem;
@@ -179,13 +191,13 @@
 
     .section-threee .slide-eduardo {
         background-image: url(../img/PERSONA-02-MOBILE.jpg);
-        background-size: contain;
+        background-size: 100%;
 
     }
 
     .section-threee .slide-carlos {
         background-image: url(../img/PERSONA-01-MOBILE.jpg);
-        background-size: contain;
+        background-size: 100%;
 
     }
 
@@ -235,11 +247,13 @@
         left: 190px;
 
     }
+
     .btn-projetos {
-       
+
         width: 70%;
-     
-      }
+
+    }
+
     /*--------------------------------------------------------------
 # Section Fiver
 --------------------------------------------------------------*/
