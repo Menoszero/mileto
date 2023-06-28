@@ -101,7 +101,7 @@ var header = document.getElementById("header");
 var logoScrolled = document.getElementById("logo-scrolled");
 var logoPrincipal = document.getElementById("logo-principal");
 var navegador = document.getElementById("navbar");
-var links = document.querySelectorAll("#navbar link");
+var links = document.querySelectorAll(".link");
 
 // Função para verificar se a página foi rolada
 function checkScroll() {
@@ -113,14 +113,21 @@ function checkScroll() {
     logoPrincipal.classList.add("logo-scrolled");
     logoScrolled.classList.remove("logo-scrolled");
     header.style.padding = "0px";
-    
+
+    links.forEach(function (links) {
+      links.classList.replace("link", "link-scrolled");
+      links.classList.replace("active",".active-scrolled");
+    });
 
   } else {
     // Remove a classe 'scrolled' quando a página está no topo
     header.classList.remove("header-scrolled");
     logoPrincipal.classList.remove("logo-scrolled");
     logoScrolled.classList.add("logo-scrolled");
-
+    links.forEach(function (links) {
+      links.classList.replace("link-scrolled", "link");
+      links.classList.replace("active-scrolled","active");
+    });
   }
 }
 

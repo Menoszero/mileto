@@ -11,6 +11,26 @@
         max-height: 30px;
     }
 
+    #header #logo-scrolled {
+        display: block;
+
+    }
+
+    #header #logo-principal {
+        display: none;
+
+    }
+
+    #header .box-logo-header {
+        background-color: #48494a;
+        display: flex;
+        align-content: center;
+        align-content: center;
+        justify-content: space-around;
+
+
+    }
+
     /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -37,7 +57,7 @@
         color: #325b78;
         width: 100%;
         text-align: center;
-        padding-top: 60px;
+        padding-top: 90px;
     }
 
     #hero h2 {
@@ -215,7 +235,11 @@
         left: 190px;
 
     }
-
+    .btn-projetos {
+       
+        width: 70%;
+     
+      }
     /*--------------------------------------------------------------
 # Section Fiver
 --------------------------------------------------------------*/
@@ -414,7 +438,7 @@
     .mobile-nav-show {
         position: relative;
         color: #fff;
-        font-size: 28px;
+        font-size: 40px;
         cursor: pointer;
         line-height: 0;
         transition: 0.5s;
@@ -424,7 +448,7 @@
 
     .mobile-nav-hide {
         color: #fff;
-        font-size: 32px;
+        font-size: 40px;
         cursor: pointer;
         line-height: 0;
         transition: 0.5s;
@@ -458,13 +482,13 @@
     body {
         overflow-x: hidden;
     }
-  
+
     #hero h1 {
-      
+
         padding-top: 150px;
     }
 
-    .section-threee p {      
+    .section-threee p {
         padding-top: 200px;
     }
 }
