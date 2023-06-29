@@ -7,28 +7,15 @@
         overflow-x: hidden;
     }
 
-
-
-    #header #logo-scrolled {
-        display: inline;
-        width: 30%;
-
-    }
-
-    #header #logo-principal {
-        display: none;
-
-    }
-
-    #header .box-logo-header {
-        background-color: #48494a;
+    #menu{
+   
         display: flex;
         align-content: center;
-        align-content: center;
         justify-content: space-between;
+        align-items: center;
+       }
 
-
-    }
+   
 
 
     /*--------------------------------------------------------------
@@ -58,7 +45,7 @@
         color: #325b78;
         width: 100%;
         text-align: center;
-        padding-top: 90px;
+        padding-top: 150px;
     }
 
     #hero h2 {
@@ -339,24 +326,18 @@
 
     }
 
-    #header #logo-principal {
-        display: none;
+   #menu{
+   
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+   }
 
-    }
-
-    #header .box-logo-header {
-        background-color: #48494a;
-        display: flex;
-        align-content: center;
-        align-content: center;
-        justify-content: space-between;
-
-
-    }
 
     #header {
         width: 100%;
-  
+
     }
 
     /*--------------------------------------------------------------
@@ -386,7 +367,7 @@
         color: #325b78;
         width: 100%;
         text-align: center;
-        padding-top: 90px;
+        padding-top: 150px;
     }
 
     #hero h2 {
@@ -653,7 +634,36 @@
 }
 
 
-
+@media (min-width: 1025px) and (max-width:1366px) {
+    #hero .circulo-p {
+        background-image: url(../img/DESKTOP-01.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        width: 303px;
+        height: 299px;
+        border: 20px solid #a3dbf0b9;
+        border-radius: 50%;
+        position: absolute;
+        top: 264px;
+        right: 125px;
+        background-color: #f3f3f3;
+    }
+    #hero .circulo-g {
+        background-image: url(../img/DESKTOP-01.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        width: 460px;
+        height: 460px;
+        border: 20px solid #a3dbf0b9;
+        border-radius: 50%;
+        position: absolute;
+        top: 382px;
+        right: 344px;
+        background-color: #fff;
+    }
+}
 
 
 
@@ -713,7 +723,7 @@
 
     .navbar a i,
     .navbar a:focus i {
-        font-size: 12px;
+        font-size: 18px;
         line-height: 0;
         margin-left: 5px;
     }
@@ -742,8 +752,8 @@
 
     .mobile-nav-show {
         position: relative;
-        color: #fff;
-        font-size: 32px;
+        color: #325b78;
+        font-size: 40px;
         cursor: pointer;
         line-height: 0;
         transition: 0.5s;
@@ -752,8 +762,8 @@
     }
 
     .mobile-nav-hide {
-        color: #fff;
-        font-size: 32px;
+        color: #325b78;
+        font-size: 40px;
         cursor: pointer;
         line-height: 0;
         transition: 0.5s;

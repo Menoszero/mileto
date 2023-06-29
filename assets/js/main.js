@@ -98,10 +98,7 @@ navDropdowns.forEach(el => {
 
 // Obtém o elemento do cabeçalho
 var header = document.getElementById("header");
-var logoScrolled = document.getElementById("logo-scrolled");
-var logoPrincipal = document.getElementById("logo-principal");
-var navegador = document.getElementById("navbar");
-var links = document.querySelectorAll(".link");
+var menu  = document.getElementById("menu");
 
 // Função para verificar se a página foi rolada
 function checkScroll() {
@@ -110,26 +107,15 @@ function checkScroll() {
   if (scrollTop > 0) {
     // Adiciona a classe 'scrolled' ao cabeçalho quando a página é rolada
     header.classList.add("header-scrolled");
-    logoPrincipal.classList.add("logo-scrolled");
-    logoScrolled.classList.remove("logo-scrolled");
-    header.style.padding = "0px";
-    header.style.height = "80px";
-    header.style.margin = "0px"
+    menu.style.display = "flex";
+  header.style.padding = "10px 0px";
 
-    links.forEach(function (links) {
-      links.classList.replace("link", "link-scrolled");
-      links.classList.replace("active",".active-scrolled");
-    });
+  
 
   } else {
     // Remove a classe 'scrolled' quando a página está no topo
     header.classList.remove("header-scrolled");
-    logoPrincipal.classList.remove("logo-scrolled");
-    logoScrolled.classList.add("logo-scrolled");
-    links.forEach(function (links) {
-      links.classList.replace("link-scrolled", "link");
-      links.classList.replace("active-scrolled","active");
-    });
+    menu.style.removeProperty("display");
   }
 }
 

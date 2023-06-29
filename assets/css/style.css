@@ -42,20 +42,19 @@ h6 {
   /* background: #48494a; */
   background-color: transparent;
   text-align: center;
-
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
   transition: all 0.3s ease;
 
 
 }
 
-#headerheader-scrolled #logo {
-  float: left;
-  margin-left: 20px;
-}
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: #48494a;
+  background: #fffefe;
 
 }
 
@@ -78,19 +77,9 @@ h6 {
   padding-left: 20px;
 }
 
-#header .logo-scrolled {
-  display: none;
-
-}
 
 
-.box-logo-header {
-  display: flex;
 
-  align-content: center;
-  justify-content: center;
-  padding: 20px 0px;
-}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -99,7 +88,12 @@ h6 {
 * Desktop Navigation 
 */
 .navbar {
-  padding: 0;
+  padding: 20px 0px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .navbar ul {
@@ -114,8 +108,8 @@ h6 {
   position: relative;
 }
 
-.navbar .link,
-.navbar .link:focus {
+.navbar a,
+.navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -130,35 +124,16 @@ h6 {
   transition: 0.3s;
 }
 
-.link-scrolled,
-.link-scrolled:focus {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 0 10px 75px;
-  font-size: 15px;
-  font-weight: 500;
 
-  color: #ffffff;
-  /* color: #fff; */
 
-  white-space: nowrap;
-  transition: 0.3s;
-}
-
-.active-scrolled {
-  color: #fff;
-
-}
-
-.navbar .link i,
-.navbar .link:focus i {
+.navbar .a i,
+.navbar .a:focus i {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
 }
 
-.navbar .link:hover,
+.navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>.link {
