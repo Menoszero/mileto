@@ -7,15 +7,19 @@
         overflow-x: hidden;
     }
 
-    #menu{
-   
+    #menu {
+
         display: flex;
         align-content: center;
         justify-content: space-between;
         align-items: center;
-       }
+    }
 
-   
+    #header .container .logo-header img {
+        max-height: 32px;
+        padding-left: 20px;
+        padding-top: 0px;
+    }
 
 
     /*--------------------------------------------------------------
@@ -65,6 +69,7 @@
     .box-subtitulo {
         position: absolute;
         bottom: 10%;
+
     }
 
     #hero .animated {
@@ -311,6 +316,7 @@
     }
 }
 
+/* Responsivo Tablet    */
 @media (min-width: 768px) and (max-width:1024px) {
 
 
@@ -326,13 +332,13 @@
 
     }
 
-   #menu{
-   
-    display: flex;
-    align-content: center;
-    justify-content: space-between;
-    align-items: center;
-   }
+    #menu {
+
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+    }
 
 
     #header {
@@ -349,7 +355,7 @@
         text-align: top;
         background-image: url(../img/MOBILE-02.jpg);
         background-attachment: scroll;
-        background-size: cover;
+        background-size: inherit;
         background-position: center;
         display: flex;
         flex-direction: column;
@@ -633,7 +639,7 @@
     }
 }
 
-
+/* Responsivo Notebook  */
 @media (min-width: 1025px) and (max-width:1366px) {
     #hero .circulo-p {
         background-image: url(../img/DESKTOP-01.jpg);
@@ -649,13 +655,14 @@
         right: 125px;
         background-color: #f3f3f3;
     }
+
     #hero .circulo-g {
         background-image: url(../img/DESKTOP-01.jpg);
         background-attachment: fixed;
         background-size: cover;
         background-position: center;
-        width: 460px;
-        height: 460px;
+        width: 400px;
+        height: 400px;
         border: 20px solid #a3dbf0b9;
         border-radius: 50%;
         position: absolute;
@@ -665,12 +672,81 @@
     }
 }
 
+/* Responsivo Desktop  */
+@media (min-width: 1367px) and (max-width:2399px) {
+    #hero .circulo-g {
+        background-image: url(../img/DESKTOP-01.jpg);
+        background-attachment: fixed;
+        background-size: contain;
+        background-position: center;
+        width: 400px;
+        height: 400px;
+        border: 20px solid #a3dbf0b9;
+        border-radius: 50%;
+        position: absolute;
+        top: 400px;
+        right: 350px;
+        background-color: #fff;
+    }
+
+    #hero .circulo-p {
+        background-image: url(../img/DESKTOP-01.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 300px;
+        border: 20px solid #a3dbf0b9;
+        border-radius: 50%;
+        position: absolute;
+        top: 262px;
+        right: 117px;
+        background-color: #f3f3f3;
+    }
+}
+
+/* Responsivo Ultawide  */
+@media (min-width: 2400px) {
+    #hero .circulo-p {
+        width: 450px;
+        height: 450px;
+        top: 200px;
+        right: 240px;
+
+    }
+
+    #hero .circulo-g {
+        width: 600px;
+        height: 600px;
+        top: 300px;
+        right: 590px;
+
+    }
+
+    .about .img-section-2 {
+
+        width: 550px;
+        height: 550px;
+        top: 250px;
+        right: 400px;
+        background-size: 180%;
+
+    }
+
+    .section-threee p {
+
+        width: 25%;
+
+    }
+}
+
+
 
 
 /*--------------------------------------------------------------
   # Mobile Navigation
   --------------------------------------------------------------*/
-@media (min-width: 1280px) {
+@media (min-width: 1024px) {
 
     .mobile-nav-show,
     .mobile-nav-hide {
@@ -678,7 +754,7 @@
     }
 }
 
-@media (max-width: 1279px) {
+@media (max-width: 1024px) {
     .navbar {
         position: fixed;
         top: 0;
@@ -791,39 +867,7 @@
 }
 
 
-@media (min-width: 1920px) {
-    #hero .circulo-p {
-        width: 450px;
-        height: 450px;
-        top: 200px;
-        right: 240px;
-
-    }
-
-    #hero .circulo-g {
-        width: 600px;
-        height: 600px;
-        top: 300px;
-        right: 590px;
-
-    }
-
-    .about .img-section-2 {
-
-        width: 550px;
-        height: 550px;
-        top: 250px;
-        right: 400px;
-        background-size: 180%;
-
-    }
-
-    .section-threee p {
-
-        width: 25%;
-
-    }
-}
+@media (min-width: 1920px) {}
 
 
 /* 
