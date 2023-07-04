@@ -646,13 +646,13 @@
         background-attachment: fixed;
         background-size: cover;
         background-position: center;
-        width: 303px;
-        height: 299px;
+        width: 250px;
+        height: 250px;
         border: 20px solid #a3dbf0b9;
         border-radius: 50%;
         position: absolute;
-        top: 264px;
-        right: 125px;
+        top: 127px;
+        right: 144px;
         background-color: #f3f3f3;
     }
 
@@ -661,12 +661,12 @@
         background-attachment: fixed;
         background-size: cover;
         background-position: center;
-        width: 400px;
-        height: 400px;
+        width: 350px;
+        height: 350px;
         border: 20px solid #a3dbf0b9;
         border-radius: 50%;
         position: absolute;
-        top: 382px;
+        top: 192px;
         right: 344px;
         background-color: #fff;
     }
@@ -684,8 +684,8 @@
         border: 20px solid #a3dbf0b9;
         border-radius: 50%;
         position: absolute;
-        top: 400px;
-        right: 350px;
+        top: 198px;
+        right: 429px;
         background-color: #fff;
     }
 
@@ -699,8 +699,8 @@
         border: 20px solid #a3dbf0b9;
         border-radius: 50%;
         position: absolute;
-        top: 262px;
-        right: 117px;
+        top: 115px;
+        right: 189px;
         background-color: #f3f3f3;
     }
 }
