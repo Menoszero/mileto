@@ -654,6 +654,20 @@
         top: 127px;
         right: 144px;
         background-color: #f3f3f3;
+        animation-duration: 10s;
+        animation-name: moverpequeno;
+    }
+
+
+
+    @keyframes moverpequeno {
+        from {
+            top: 0px;
+        }
+
+        to {
+            top: 127px;
+        }
     }
 
     #hero .circulo-g {
@@ -669,6 +683,18 @@
         top: 192px;
         right: 344px;
         background-color: #fff;
+        animation-duration: 10s;
+        animation-name: movergrande;
+    }
+
+    @keyframes movergrande {
+        from {
+            top: 300px;
+        }
+
+        to {
+            top: 192px;
+        }
     }
 }
 
@@ -687,6 +713,18 @@
         top: 198px;
         right: 429px;
         background-color: #fff;
+        animation-duration: 10s;
+        animation-name: movergrande;
+    }
+
+    @keyframes movergrande {
+        from {
+            top: 300px;
+        }
+
+        to {
+            top: 192px;
+        }
     }
 
     #hero .circulo-p {
@@ -702,6 +740,18 @@
         top: 115px;
         right: 189px;
         background-color: #f3f3f3;
+        animation-duration: 10s;
+        animation-name: moverpequeno;
+    }
+
+    @keyframes moverpequeno {
+        from {
+            top: 0px;
+        }
+
+        to {
+            top: 115px;
+        }
     }
 }
 

@@ -313,7 +313,7 @@ h6 {
   right: 200px;
   background-color: #f3f3f3;
   /* animation-duration: 5s;
-  animation-name: moverpequeno; */
+  animation-name: up-down; */
 }
 
 #hero .circulo-g {
@@ -330,8 +330,10 @@ h6 {
   right: 400px;
   background-color: #fff;
 
-  /* animation-duration: 5s;
+  /* animation-duration: 10s;
   animation-name: movergrande; */
+  
+  
 }
 
 @keyframes movergrande {
@@ -340,7 +342,7 @@ h6 {
   }
 
   to {
-    top: 250px;
+    top: auto;
   }
 }
 

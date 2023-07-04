@@ -98,7 +98,7 @@ navDropdowns.forEach(el => {
 
 // Obtém o elemento do cabeçalho
 var header = document.getElementById("header");
-var menu  = document.getElementById("menu");
+var menu = document.getElementById("menu");
 
 // Função para verificar se a página foi rolada
 function checkScroll() {
@@ -108,9 +108,9 @@ function checkScroll() {
     // Adiciona a classe 'scrolled' ao cabeçalho quando a página é rolada
     header.classList.add("header-scrolled");
     menu.style.display = "flex";
-  header.style.padding = "10px 0px";
+    header.style.padding = "10px 0px";
 
-  
+
 
   } else {
     // Remove a classe 'scrolled' quando a página está no topo
@@ -138,3 +138,16 @@ function toggleContent() {
 
 // Adiciona o evento de clique ao botão
 toggleButton.addEventListener("click", toggleContent);
+
+
+
+
+$.ajax({
+  url: "https://formsubmit.co/ajax/ your@email.com ",
+  method: "POST",
+  data: {
+    name: "FormSubmit",
+    message: "I'm from Devro LABS"
+  },
+  dataType: "json"
+});
