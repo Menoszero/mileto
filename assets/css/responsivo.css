@@ -699,11 +699,11 @@
 }
 
 /* Responsivo Desktop  */
-@media (min-width: 1367px) and (max-width:2399px) {
+@media (min-width: 1367px) and (max-width:1920px) {
     #hero .circulo-g {
         background-image: url(../img/DESKTOP-01.jpg);
         background-attachment: fixed;
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         width: 400px;
         height: 400px;
@@ -756,20 +756,20 @@
 }
 
 /* Responsivo Ultawide  */
-@media (min-width: 2400px) {
+@media (min-width: 1921px) {
     #hero .circulo-p {
         width: 450px;
         height: 450px;
         top: 200px;
-        right: 240px;
+        right: 670px;
 
     }
 
     #hero .circulo-g {
-        width: 600px;
-        height: 600px;
-        top: 300px;
-        right: 590px;
+        width: 300px;
+        height: 300px;
+        top: 134px;
+        right: 415px;
 
     }
 
