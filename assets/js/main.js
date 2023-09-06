@@ -99,6 +99,7 @@ navDropdowns.forEach(el => {
 // Obtém o elemento do cabeçalho
 var header = document.getElementById("header");
 var menu = document.getElementById("menu");
+var logo = document.querySelector(".container .logo-header img");
 
 // Função para verificar se a página foi rolada
 function checkScroll() {
@@ -109,6 +110,7 @@ function checkScroll() {
     header.classList.add("header-scrolled");
     menu.style.display = "flex";
     header.style.padding = "10px 0px";
+    logo.style.maxWidth = "150px";
 
 
 
@@ -116,6 +118,7 @@ function checkScroll() {
     // Remove a classe 'scrolled' quando a página está no topo
     header.classList.remove("header-scrolled");
     menu.style.removeProperty("display");
+    logo.style.maxWidth = "280px";
   }
 }
 
