@@ -699,96 +699,15 @@
 }
 
 /* Responsivo Desktop  */
-@media (min-width: 1367px) and (max-width:1920px) {
-    #hero .circulo-g {
-        background-image: url(../img/DESKTOP-01.jpg);
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: center;
-        width: 400px;
-        height: 400px;
-        border: 20px solid #a3dbf0b9;
-        border-radius: 50%;
-        position: absolute;
-        top: 198px;
-        right: 429px;
-        background-color: #fff;
-        animation-duration: 10s;
-        animation-name: movergrande;
-    }
+@media (min-width: 1367px) {
 
-    @keyframes movergrande {
-        from {
-            top: 300px;
-        }
-
-        to {
-            top: 192px;
-        }
-    }
-
-    #hero .circulo-p {
-        background-image: url(../img/DESKTOP-01.jpg);
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: center;
-        width: 300px;
-        height: 300px;
-        border: 20px solid #a3dbf0b9;
-        border-radius: 50%;
-        position: absolute;
-        top: 115px;
-        right: 189px;
-        background-color: #f3f3f3;
-        animation-duration: 10s;
-        animation-name: moverpequeno;
-    }
-
-    @keyframes moverpequeno {
-        from {
-            top: 0px;
-        }
-
-        to {
-            top: 115px;
-        }
-    }
+    /* body {
+        max-width: 1366px;
+        margin: 0 auto;
+    } */
 }
 
-/* Responsivo Ultawide  */
-@media (min-width: 1921px) {
-    #hero .circulo-p {
-        width: 450px;
-        height: 450px;
-        top: 200px;
-        right: 670px;
 
-    }
-
-    #hero .circulo-g {
-        width: 300px;
-        height: 300px;
-        top: 134px;
-        right: 415px;
-
-    }
-
-    .about .img-section-2 {
-
-        width: 550px;
-        height: 550px;
-        top: 250px;
-        right: 400px;
-        background-size: 180%;
-
-    }
-
-    .section-threee p {
-
-        width: 25%;
-
-    }
-}
 
 
 

@@ -133,24 +133,20 @@ function toggleContent() {
   if (contentBox.classList.contains("hidden")) {
     // Se a div estiver oculta, mostra ela
     contentBox.classList.remove("hidden");
+    toggleButton.textContent = 'Veja Menos';
   } else {
     // Se a div estiver visível, oculta ela
     contentBox.classList.add("hidden");
+    toggleButton.textContent = 'Veja Mais';
+    
   }
 }
 
 // Adiciona o evento de clique ao botão
 toggleButton.addEventListener("click", toggleContent);
+ 
 
 
 
 
-$.ajax({
-  url: "https://formsubmit.co/ajax/ your@email.com ",
-  method: "POST",
-  data: {
-    name: "FormSubmit",
-    message: "I'm from Devro LABS"
-  },
-  dataType: "json"
-});
+
