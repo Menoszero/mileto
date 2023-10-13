@@ -310,7 +310,7 @@ h6 {
   border: 20px solid #a3dbf0b9;
   border-radius: 50%;
   position: absolute;
-  top: 150px;
+  top: 200px;
   right: 200px;
   background-color: #f3f3f3;
   /* animation-duration: 5s;
@@ -322,13 +322,13 @@ h6 {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  width: 380px;
-  height: 380px;
+  width: 400px;
+  height: 400px;
   border: 20px solid #a3dbf0b9;
   border-radius: 50%;
   position: absolute;
-  top: 250px;
-  right: 360px;
+  top: 280px;
+  right: 400px;
   background-color: #fff;
 
   /* animation-duration: 10s;
@@ -900,7 +900,7 @@ h6 {
   z-index: 1000;
 }
 
-.whatsapp::before {
+/* .whatsapp::before {
   content: "Posso ajudar?";
   font-size: 0.8em;
   background: #ffffff;
@@ -958,7 +958,7 @@ h6 {
     opacity: 0;
     left: 14%;
   }
-}
+} */
 
 @keyframes seta {
   0% {
