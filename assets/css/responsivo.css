@@ -698,13 +698,12 @@
     }
 }
 
-/* Responsivo Desktop  */
-@media (min-width: 1367px) {
-
-    /* body {
-        max-width: 1366px;
+@media (min-width: 1441px) {
+    body {
+        max-width: 1440px;
         margin: 0 auto;
-    } */
+        /* Isso centralizará o conteúdo na página */
+    }
 }
 
 
