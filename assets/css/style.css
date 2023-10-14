@@ -525,12 +525,12 @@ h6 {
 
 .section-threee p {
   font-family: 'Poppins';
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 300;
-  font-style: italic;
-  font-size: 1rem;
-  letter-spacing: 0.4rem;
-  line-height: 1.7rem;
+  /* font-style: italic; */
+  font-size: 1.5rem;
+  /* letter-spacing: 0.4rem;
+  line-height: 1.7rem; */
   color: #3e6580;
   width: 35%;
   margin-right: 550px;
