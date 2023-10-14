@@ -43,13 +43,13 @@
 
     #hero h1 {
         /* margin: 0 0 500px 0; */
-        font-size: 2.5em;
+        font-size: 3em;
         font-weight: 300;
         line-height: 40px;
         color: #325b78;
         width: 100%;
         text-align: center;
-        padding-top: 80px;
+        padding-top: 120px;
     }
 
     #hero h2 {
@@ -91,8 +91,8 @@
 
 
     #whatsapp-button{
-        width: 32px;
-        height: 32px;
+        width: 40px;
+        height: 40px;
     }
     /*--------------------------------------------------------------
 # Banner
