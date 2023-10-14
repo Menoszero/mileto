@@ -93,6 +93,11 @@
         display: none;
     }
 
+
+    #whatsapp-button{
+        width: 32px;
+        height: 32px;
+    }
     /*--------------------------------------------------------------
 # Banner
 --------------------------------------------------------------*/
@@ -702,7 +707,13 @@
     body {
         max-width: 1440px;
         margin: 0 auto;
+       
         /* Isso centralizará o conteúdo na página */
+    }
+    #hero{
+     
+        height: 85vh;
+        background-size: contain;
     }
 }
 
