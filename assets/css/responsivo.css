@@ -29,7 +29,7 @@
         width: 100vw;
         height: calc(100vh - 80px);
         text-align: top;
-        background-image: url(../img/MOBILE-02.jpg);
+        background-image: url(../img/herobg.jpg);
         background-attachment: scroll;
         background-size: cover;
         background-position: center;
@@ -49,28 +49,24 @@
         color: #325b78;
         width: 100%;
         text-align: center;
-        padding-top: 150px;
+        padding-top: 80px;
     }
 
     #hero h2 {
-        color: #fff;
+        color: #325b78;
         /* margin-top: 40px; */
         font-size: 1.5em;
         font-weight: 300;
         width: 100%;
         text-align: center;
-        padding-top: 250px;
-        bottom: 0;
+        /* padding-top: 50px; */
+        /* bottom: 0; */
         position: relative;
 
 
     }
 
-    .box-subtitulo {
-        position: absolute;
-        bottom: 10%;
-
-    }
+  
 
     #hero .animated {
         -webkit-animation: none;
