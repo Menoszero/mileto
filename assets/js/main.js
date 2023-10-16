@@ -111,6 +111,7 @@ function checkScroll() {
     menu.style.display = "flex";
     header.style.padding = "10px 0px";
     logo.style.maxWidth = "150px";
+    menu.style.justifyContent = "space-around";
 
 
 
