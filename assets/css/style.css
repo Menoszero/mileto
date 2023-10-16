@@ -525,13 +525,12 @@ h6 {
 
 .section-threee p {
   font-family: 'Poppins';
-  /* text-transform: uppercase; */
   font-weight: 300;
-  /* font-style: italic; */
-  font-size: 1.5rem;
-  /* letter-spacing: 0.4rem;
-  line-height: 1.7rem; */
+  font-size: 1rem;
+
+  line-height: 24px;
   color: #3e6580;
+
   width: 35%;
   margin-right: 550px;
   text-align: left;
@@ -992,32 +991,3 @@ h6 {
   z-index: 10000;
 }
 
-#whatsapp-button::after {
-  content: "Posso ajudar?";
-  font-size: 0.8em;
-  background: #ffffff;
-  padding: 1em;
-  border-radius: 5px;
-  position: absolute;
-  top: 50%;
-  transform: translatey(-50%);
-  left: 14%;
-  opacity: 0;
-  transition: 0.5s;
-  animation: mensagem 4s ease forwards 3s;
-}
-
-#whatsapp-button::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 50%;
-  transform: translatey(-50%);
-  border: 8px solid transparent;
-  border-width: 6px 0 6px 8px;
-  border-left-color: #ffffff;
-  right: 55%;
-  animation: seta 4s ease forwards 3s;
-  opacity: 0;
-  transition: 0.5s;
-}

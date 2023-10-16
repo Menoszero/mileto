@@ -90,9 +90,9 @@
     }
 
 
-    #whatsapp-button{
-        width: 42px;
-        height: 42px;
+    #whatsapp-button {
+        width: 45px;
+        height: 45px;
     }
     /*--------------------------------------------------------------
 # Banner
@@ -178,7 +178,7 @@
         font-size: 1.3rem;
         /* padding: 20px; */
         
-        padding-top: 150px;
+        padding-top: 90px;
     }
 
     .slide-ceo {
