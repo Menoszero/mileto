@@ -11,7 +11,7 @@ body {
   scroll-behavior: smooth;
   max-width: 1440px;
   margin: 0 auto;
-  
+
 }
 
 a {
@@ -260,7 +260,7 @@ h6 {
 #hero {
   /* width: 100vw; */
   height: 100vh;
-  background: url("../img/DESKTOP-02.jpg") no-repeat  top center;
+  background: url("../img/DESKTOP-02.jpg") no-repeat top center;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -385,7 +385,6 @@ h6 {
 /*--------------------------------------------------------------
 # Banner
 --------------------------------------------------------------*/
-
 .swiper {
   width: 100%;
   height: 100%;
@@ -402,9 +401,10 @@ h6 {
 .swiper-slide img {
   display: block;
   width: 100%;
-  height: 250px;
+
   object-fit: fill;
 }
+
 
 
 
@@ -478,16 +478,16 @@ h6 {
 .about .img-section-2 {
   background-image: url(../img/CASAS/CASA-OLIVER/casa-oliver-04.jpg);
   background-position: top;
-  background-size: 700px;
+  background-size: 900px;
   background-repeat: no-repeat;
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   border: 20px solid #cae1e9b9;
   border-radius: 50%;
-  position: absolute;
+  /* position: absolute;
   top: 300px;
   right: 321px;
-  z-index: 88;
+  z-index: 88; */
 
 }
 
@@ -526,9 +526,9 @@ h6 {
 .section-threee p {
   font-family: 'Poppins';
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 1.3rem;
 
-  line-height: 24px;
+  /* line-height: 24px; */
   color: #3e6580;
 
   width: 35%;
@@ -558,6 +558,7 @@ h6 {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  height: 570px;
 }
 
 .section-threee .slide-carlos {
@@ -565,6 +566,7 @@ h6 {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  height: 570px;
 }
 
 
@@ -573,6 +575,27 @@ h6 {
 /*--------------------------------------------------------------
 # Section Four
 --------------------------------------------------------------*/
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  /* font-size: 18px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+
+  object-fit: fill;
+}
+
+
 .section-four {
   /* background-color: #fff; */
   position: relative;
@@ -718,10 +741,11 @@ h6 {
 --------------------------------------------------------------*/
 
 .section-fiver {
-  background-image: url(../img/BANNER-DESKTOP-PARA-TEXTO.jpg);
+  background-image: url(../img/BANNER-DESKTOP-MILETO.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
+  height: 450px;
 }
 
 
@@ -739,12 +763,10 @@ h6 {
   font-family: 'Poppins';
   text-transform: uppercase;
   font-weight: 300;
-  font-style: italic;
-  font-size: 1rem;
-  letter-spacing: 0.4rem;
-  line-height: 1.7rem;
+  font-size: 1.4rem;
+
   color: #ffffff;
-  margin-top: 100px;
+  margin-top: 80px;
   width: 70%;
 }
 
@@ -990,4 +1012,3 @@ h6 {
   cursor: pointer;
   z-index: 10000;
 }
-

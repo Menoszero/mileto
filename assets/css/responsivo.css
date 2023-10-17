@@ -579,6 +579,7 @@
     .section-fiver {
         background-image: url(../img/BANNER-MOBILIE-PARA-TEXTO.jpg);
         background-size: 100%;
+        height: 750px;
     }
 
 
@@ -641,61 +642,7 @@
 
 /* Responsivo Notebook  */
 @media (min-width: 1025px) and (max-width:1366px) {
-    #hero .circulo-p {
-        background-image: url(../img/DESKTOP-01.jpg);
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: center;
-        width: 250px;
-        height: 250px;
-        border: 20px solid #a3dbf0b9;
-        border-radius: 50%;
-        position: absolute;
-        top: 127px;
-        right: 144px;
-        background-color: #f3f3f3;
-        animation-duration: 10s;
-        animation-name: moverpequeno;
-    }
-
-
-
-    @keyframes moverpequeno {
-        from {
-            top: 0px;
-        }
-
-        to {
-            top: 127px;
-        }
-    }
-
-    #hero .circulo-g {
-        background-image: url(../img/DESKTOP-01.jpg);
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: center;
-        width: 350px;
-        height: 350px;
-        border: 20px solid #a3dbf0b9;
-        border-radius: 50%;
-        position: absolute;
-        top: 192px;
-        right: 344px;
-        background-color: #fff;
-        animation-duration: 10s;
-        animation-name: movergrande;
-    }
-
-    @keyframes movergrande {
-        from {
-            top: 300px;
-        }
-
-        to {
-            top: 192px;
-        }
-    }
+    
 }
 
 @media (min-width: 1441px) {
@@ -707,7 +654,7 @@
     }
     #hero{
      
-        height: 85vh;
+        height: 100vh;
         background-size: contain;
     }
 }
