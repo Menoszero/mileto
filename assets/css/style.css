@@ -306,13 +306,13 @@ h6 {
   background-attachment: fixed;
   background-size: contain;
   background-position: top;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   border: 20px solid #a3dbf0b9;
   border-radius: 50%;
   position: absolute;
-  top: 200px;
-  right: 261px;
+  top: 260px;
+  right: 160px;
   background-color: #f3f3f3;
   /* animation-duration: 5s;
   animation-name: up-down; */
@@ -323,13 +323,13 @@ h6 {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   border: 20px solid #a3dbf0b9;
   border-radius: 50%;
   position: absolute;
-  top: 280px;
-  right: 460px;
+  top: 380px;
+  right: 380px;
   background-color: #fff;
 
   /* animation-duration: 10s;
@@ -439,9 +439,9 @@ h6 {
 
 .about .section-left {
 
-  width: 700px;
-  height: 700px;
-  border: 50px solid rgba(32, 25, 25, 0.286);
+  width: 100%;
+  height: 60vh;
+  border: 20px solid #cae1e9b9;
   border-radius: 50%;
   display: flex;
   flex-direction: column;
@@ -466,7 +466,7 @@ h6 {
 
 .about .section-left p {
 
-  font-size: 1.4rem;
+  font-size: 1rem;
   font-weight: 300;
   width: 90%;
   color: #52738a;
@@ -480,8 +480,8 @@ h6 {
   background-position: top;
   background-size: 900px;
   background-repeat: no-repeat;
-  width: 500px;
-  height: 500px;
+  width: 50%;
+  height: 40vh;
   border: 20px solid #cae1e9b9;
   border-radius: 50%;
   /* position: absolute;
@@ -817,7 +817,7 @@ h6 {
 /*--------------------------------------------------------------
 # Section Seven
 --------------------------------------------------------------*/
-.section-seven {
+.footer {
   background-color: #86979a;
 }
 
@@ -825,50 +825,6 @@ h6 {
   width: 50%;
 }
 
-.section-seven .form .form-label {
-  font-size: 1rem;
-  font-family: 'Poppins';
-  font-weight: 300;
-  color: #000;
-  letter-spacing: 0.4rem;
-  margin-left: 50px;
-  margin-top: -20px;
-  padding: 0px 20px;
-  position: absolute;
-  background-color: #86979a;
-}
-
-.section-seven .form .form-control {
-  border: 1px solid #fff;
-  background-color: transparent;
-  height: 40px;
-  border-radius: 15px;
-}
-
-.section-seven .form .form-mensagem {
-  border: 2px solid #fff;
-  background-color: transparent;
-  height: 150px;
-  border-radius: 20px;
-}
-
-.section-seven .form button {
-  border: 2px solid #fff;
-  background-color: #fff;
-  color: #929697;
-  height: 50px;
-  width: 100%;
-  border-radius: 20px;
-  text-transform: uppercase;
-  font-weight: bold;
-
-}
-
-.section-seven .form button:hover {
-  border: 2px solid #fdfdfd;
-  background-color: #000000;
-  color: #f8fdfe;
-}
 
 
 .elementor-icon-list-items {
@@ -903,8 +859,8 @@ h6 {
   font-size: 1rem;
   font-family: 'Poppins';
   font-weight: 300;
-  color: #fff;
-  letter-spacing: 0.4rem;
+    color: #3e6580;
+
 }
 
 .elementor-icon-list-item a:hover {
@@ -922,65 +878,6 @@ h6 {
   z-index: 1000;
 }
 
-/* .whatsapp::before {
-  content: "Posso ajudar?";
-  font-size: 0.8em;
-  background: #ffffff;
-  padding: 1em;
-  border-radius: 5px;
-  position: absolute;
-  top: 50%;
-  transform: translatey(-50%);
-  left: 14%;
-  opacity: 0;
-  transition: 0.5s;
-  animation: mensagem 4s ease forwards 3s;
-}
-
-.whatsapp::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 50%;
-  transform: translatey(-50%);
-  border: 8px solid transparent;
-  border-width: 6px 0 6px 8px;
-  border-left-color: #ffffff;
-  right: 55%;
-  animation: seta 4s ease forwards 3s;
-  opacity: 0;
-  transition: 0.5s;
-}
-
-.whatsapp:hover::before {
-  opacity: 1 !important;
-  left: 4% !important;
-  animation: none;
-}
-
-.whatsapp:hover::after {
-  opacity: 1 !important;
-  right: 65% !important;
-  animation: none;
-}
-
-@keyframes mensagem {
-  0% {
-    opacity: 0;
-    left: 14%;
-  }
-
-  10%,
-  90% {
-    opacity: 1;
-    left: 4%;
-  }
-
-  100% {
-    opacity: 0;
-    left: 14%;
-  }
-} */
 
 @keyframes seta {
   0% {
