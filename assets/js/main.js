@@ -139,14 +139,15 @@ function toggleContent() {
     // Se a div estiver visível, oculta ela
     contentBox.classList.add("hidden");
     toggleButton.textContent = 'Veja Mais';
-    
+
   }
 }
 
 // Adiciona o evento de clique ao botão
 toggleButton.addEventListener("click", toggleContent);
- 
 
 
-  AOS.init();
+// Animação AOS javascript 
+AOS.init();
+
 

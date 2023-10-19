@@ -441,8 +441,8 @@ h6 {
 
 .metodo .section-left {
 
-  width: 100%;
-  height: 60vh;
+  width: 500px;
+  height: 500px;
   border: 20px solid #cae1e9b9;
   border-radius: 50%;
   display: flex;

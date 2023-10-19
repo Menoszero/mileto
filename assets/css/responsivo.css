@@ -113,7 +113,7 @@
 
         width: 360px;
         height: 360px;
-        border: 15px solid rgba(32, 25, 25, 0.286);
+        border: 10px solid #cae1e9b9;
         padding: 15px;
 
 
@@ -121,12 +121,12 @@
 
     .metodo .img-section-2 {
         background-size: 180%;
-        width: 150px;
-        height: 150px;
+        width: 360px;
+        height: 360px;
         border: 10px solid #cae1e9b9;
-        top: 200px;
-        right: -10px;
-        display: none;
+        
+        
+       
 
     }
 
@@ -289,36 +289,9 @@
         width: 100%;
     }
 
-    /*--------------------------------------------------------------
-# Section Seven
---------------------------------------------------------------*/
-    .section-seven .content .logo-footer {
-        padding-left: 60px;
-    }
-
-    .section-seven .logo-footer {
-        width: 80%;
-    }
-
-    .elementor-icon-list-item svg {
-        width: 25px;
-        height: 25px;
-
-    }
-
-    .elementor-icon-list-item a {
-        font-size: 1rem;
-        font-family: 'Poppins';
-        font-weight: 300;
-        color: #fff;
-        letter-spacing: 0.1rem;
-    }
-
-    .elementor-icon-list-item a:hover {
-
-        color: #000;
-
-    }
+  #footer{
+    width: 90%;
+  }
 }
 
 /* Responsivo Tablet    */
