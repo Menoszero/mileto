@@ -148,6 +148,5 @@ toggleButton.addEventListener("click", toggleContent);
  
 
 
-
-
+  AOS.init();
 

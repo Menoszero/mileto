@@ -66,7 +66,7 @@
 
     }
 
-  
+
 
     #hero .animated {
         -webkit-animation: none;
@@ -93,6 +93,7 @@
         width: 48px;
         height: 48px;
     }
+
     /*--------------------------------------------------------------
 # Banner
 --------------------------------------------------------------*/
@@ -104,11 +105,11 @@
 
 
     /*--------------------------------------------------------------
-# About Us
+# metodo Us
 --------------------------------------------------------------*/
 
 
-    .about .section-left {
+    .metodo .section-left {
 
         width: 360px;
         height: 360px;
@@ -118,7 +119,7 @@
 
     }
 
-    .about .img-section-2 {
+    .metodo .img-section-2 {
         background-size: 180%;
         width: 150px;
         height: 150px;
@@ -129,20 +130,20 @@
 
     }
 
-    .about .box-metodo {
+    .metodo .box-metodo {
         display: flex;
         align-content: center;
         justify-content: center;
         padding-bottom: 30px;
     }
 
-    .about .section-left h3 {
+    .metodo .section-left h3 {
         text-align: center;
         font-size: 1rem;
         width: 100%;
     }
 
-    .about .section-left p {
+    .metodo .section-left p {
         font-size: 1rem;
         width: 100%;
         letter-spacing: 0.15rem;
@@ -170,30 +171,35 @@
     }
 
     .section-threee p {
-        width: 90%;
-        text-align: center;
-        margin: 0 auto;
+     
         align-self: start;
-        font-size: 1.3rem;
-        /* padding: 20px; */
-        
         padding-top: 90px;
+        font-size: 1em;
+        width: 70%;
+        margin-right: 0px;
+        text-align: center;
     }
 
     .slide-ceo {
-        height: 110vh;
+        height: 130vh;
     }
+
+  
 
     .section-threee .slide-eduardo {
         background-image: url(../img/PERSONA-02-MOBILE.jpg);
         background-size: 100%;
-
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
     }
 
     .section-threee .slide-carlos {
         background-image: url(../img/PERSONA-01-MOBILE.jpg);
         background-size: 100%;
-
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
     }
 
     /*--------------------------------------------------------------
@@ -317,23 +323,157 @@
 
 /* Responsivo Tablet    */
 @media (min-width: 768px) and (max-width:1024px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    #menu {
+
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #header .container .logo-header img {
+        max-height: 32px;
+        padding-left: 20px;
+        padding-top: 0px;
+    }
 
 
-   
+
+
+    #hero {
+        width: 100vw;
+        height: calc(100vh + 220px);
+        text-align: top;
+        background-image: url(../img/herobg.jpg);
+        background-attachment: scroll;
+        background-size: 100%;
+        background-position: bottom;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        align-content: center;
+        position: relative;
+    }
+
+    #hero h1 {
+        /* margin: 0 0 500px 0; */
+        font-size: 3em;
+        font-weight: 300;
+        line-height: 40px;
+        color: #325b78;
+        width: 100%;
+        text-align: center;
+        padding-top: 220px;
+    }
+
+    #hero h2 {
+        color: #325b78;
+        /* margin-top: 40px; */
+        font-size: 1.5em;
+        font-weight: 300;
+        width: 100%;
+        text-align: center;
+        /* padding-top: 50px; */
+        /* bottom: 0; */
+        position: relative;
+
+
+    }
+
+
+
+    #hero .animated {
+        -webkit-animation: none;
+        animation: none;
+    }
+
+    #hero .hero-img {
+        text-align: center;
+    }
+
+    #hero .hero-img img {
+        width: 50%;
+    }
+
+    #hero .circulo-p {
+        display: none;
+    }
+
+    #hero .circulo-g {
+        display: none;
+    }
+
+    #whatsapp-button {
+        width: 60px;
+        height: 60px;
+    }
+
+    .metodo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .metodo .section-left {
+        width: 500px;
+        height: 500px;
+    }
+
+
+    .section-threee {
+
+        flex-direction: column;
+
+    }
+
+    .section-threee p {
+        font-size: 1.4em;
+        width: 70%;
+        margin-right: 0px;
+        text-align: center;
+        margin-top: -400px;
+    }
+
+    .section-threee .slide-eduardo {
+        background-image: url(../img/PERSONA-02-MOBILE.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+    }
+
+    .section-threee .slide-carlos {
+        background-image: url(../img/PERSONA-01-MOBILE.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+    }
+
 }
 
 @media (min-width: 1441px) {
     body {
         max-width: 1440px;
         margin: 0 auto;
-       
+
         /* Isso centralizará o conteúdo na página */
     }
-    #hero{
-     
+
+    #hero {
+
         height: 900px;
         background-size: contain;
     }
+
+
 }
 
 
@@ -463,4 +603,3 @@
         z-index: 9996;
     }
 }
-
