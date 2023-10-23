@@ -124,9 +124,9 @@
         width: 360px;
         height: 360px;
         border: 10px solid #cae1e9b9;
-        
-        
-       
+
+
+
 
     }
 
@@ -171,20 +171,21 @@
     }
 
     .section-threee p {
-     
+
         align-self: start;
-        padding-top: 90px;
+        padding-top: 120px;
         font-size: 1em;
         width: 70%;
         margin-right: 0px;
         text-align: center;
+        line-height: 1.5rem;
     }
 
     .slide-ceo {
         height: 130vh;
     }
 
-  
+
 
     .section-threee .slide-eduardo {
         background-image: url(../img/PERSONA-02-MOBILE.jpg);
@@ -289,9 +290,9 @@
         width: 100%;
     }
 
-  #footer{
-    width: 90%;
-  }
+    #footer {
+        width: 90%;
+    }
 }
 
 /* Responsivo Tablet    */
@@ -436,8 +437,9 @@
     body {
         max-width: 1440px;
         margin: 0 auto;
+        overflow-x: hidden;
 
-        /* Isso centralizará o conteúdo na página */
+
     }
 
     #hero {
@@ -467,6 +469,7 @@
 
 @media (max-width: 1024px) {
     .navbar {
+        
         position: fixed;
         top: 0;
         right: -100%;

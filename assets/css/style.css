@@ -1,6 +1,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+* {
+  border: 1px solid red;
+}
+
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -48,8 +52,7 @@ h6 {
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
-
-
+  width: 100vw;
 }
 
 
@@ -323,7 +326,7 @@ h6 {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
- 
+
   background-color: #fff;
 
   width: 400px;

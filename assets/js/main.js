@@ -149,5 +149,3 @@ toggleButton.addEventListener("click", toggleContent);
 
 // Animação AOS javascript 
 AOS.init();
-
-
