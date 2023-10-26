@@ -41,6 +41,7 @@
         justify-content: start;
         align-content: center;
         position: relative;
+        overflow-x: hidden;
     }
 
     #hero h1 {
@@ -299,7 +300,7 @@
 }
 
 /* Responsivo Tablet    */
-@media (min-width: 767px) and (max-width:1024px) {
+@media (min-width: 768px) and (max-width:1024px) {
     body {
         overflow-x: hidden !important;
         width: 100vw;
@@ -336,6 +337,7 @@
         justify-content: start;
         align-content: center;
         position: relative;
+        overflow-x: hidden;
     }
 
     #hero h1 {
@@ -393,8 +395,8 @@
         border: none;
         border-radius: 50%;
         position: fixed;
-        bottom: 5vh;
-        right: 5vw;
+        bottom: 10vh;
+        right: 10vw;
         cursor: pointer;
         z-index: 10000;
     }
@@ -420,16 +422,16 @@
     }
 
     .section-threee p {
-        font-size: 1.4em;
+        font-size: 2em;
         width: 70%;
         margin-right: 0px;
         text-align: center;
-        margin-top: -200px;
+        margin-top: -400px;
     }
 
     .section-threee .slide-eduardo {
         background-image: url(../img/PERSONA-02-MOBILE.jpg);
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         height: 100vh;
@@ -437,7 +439,7 @@
 
     .section-threee .slide-carlos {
         background-image: url(../img/PERSONA-01-MOBILE.jpg);
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         height: 100vh;
@@ -474,7 +476,7 @@
 /*--------------------------------------------------------------
   # Mobile Navigation
   --------------------------------------------------------------*/
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
 
     .mobile-nav-show,
     .mobile-nav-hide {
@@ -482,14 +484,14 @@
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
     .navbar {
 
         position: fixed;
         top: 0;
         right: -200%;
         width: 100%;
-        max-width: 400px;
+        /* max-width: 40vw; */
         bottom: 0;
         transition: 0.3s;
         z-index: 9997;
