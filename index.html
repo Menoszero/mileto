@@ -4,7 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
   <title>Mileto</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
@@ -60,7 +62,7 @@
   <section id="hero" class="d-flex align-items-center">
     <div class="container bghero">
       <div class="row">
-        <div class="col-lg-6  pt-4 pt-lg-0 order-2 order-lg-1">
+        <div class="col-lg-6  pt-4 pt-lg-0 order-2 order-lg-1 ">
           <div class="box-titulo">
             <h1>ENGENHARIA EXPONENCIAL</h1>
           </div>
@@ -77,7 +79,10 @@
         <div class="circulo-p ">
         </div>
 
-
+        <div id="whatsapp-button">
+          <dotlottie-player src="https://lottie.host/a97fabdb-9746-424c-9330-d81f164d2cfa/SwvlewePRN.json"
+            background="transparent" speed="1" loop autoplay></dotlottie-player>
+        </div>
       </div>
 
 
@@ -177,7 +182,7 @@
             </div>
             <div class="swiper-slide slide-eduardo">
 
-              <p>
+              <p class="lead">
                 Eduardo Marcondes é arquiteto paulista que há mais de 30 anos desenvolve projetos de casas e condomínios
                 no
                 Distrito Federal. “Trazer novas e eficientes tecnologias, imprimir uma gestão de projetos e obra ágil e
@@ -237,7 +242,8 @@
         <!-- 02 -->
         <div
           class="row content d-flex justify-content-center flex-sm-column flex-md-row flex-lg-row  align-items-center ">
-          <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="col-md-6 order-lg-0  ">
+          <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+            class=" order-lg-0 py-5   col-md-6 order-sm-last  col-sm-12 order-md-1 order-1   ">
             <h4>CASA PANORAMA </h4>
             <p>
               O projeto da casa Panorama, foi um presente para mim, Eduardo, como arquiteto. Pela proximidade do Lago
@@ -245,7 +251,7 @@
               muito especial.
             </p>
           </div>
-          <div class="col-md-6  wrapper-img-casa order-lg-1 ">
+          <div class="col-md-6  wrapper-img-casa order-lg-1  order-sm-first order-md-0 order-0   ">
             <div class="swiper mySwiper ">
               <div class="swiper-wrapper">
                 <div class="swiper-slide"><img src="./assets/img/CASAS/CASA-OLIVER/casa-oliver-01.jpg" alt=""></div>
@@ -264,9 +270,11 @@
 
         <!-- Box oculto -->
         <div id="contentBox" class="hidden">
+
+          <!-- 03 -->
           <div
             class="row content d-flex justify-content-center flex-sm-column flex-md-row flex-lg-row  align-items-center ">
-            <div class="col-md-6 order-lg-0  ">
+            <div class="col-md-12 order-md-0 col-sm-12 col-lg-6  wrapper-img-casa ">
               <div class="swiper mySwiper ">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide"><img src="./assets/img/CASAS/CASA-PERNAMBUCO/CASA-PERNAMBUCO.jpg" alt="">
@@ -280,7 +288,7 @@
               </div>
 
             </div>
-            <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"
+            <div data-aos="fade-left" data-aos-offset="900" data-aos-easing="ease-in-sine"
               class="col-md-12 py-5 order-md-1 col-sm-12 col-lg-6  ">
               <h4>CASA PERNAMBUCO</h4>
               <p>
@@ -290,11 +298,12 @@
             </div>
 
           </div>
+
+          <!-- 04 -->
           <div
             class="row content d-flex justify-content-center flex-sm-column flex-md-row flex-lg-row  align-items-center ">
-
-            <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"
-              class="col-md-12 py-5 order-md-1 col-sm-12 col-lg-6 ">
+            <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+              class="col-md-6 order-lg-0 order-1 py-4  ">
               <h4>CASA RETROFIT</h4>
               <p>
                 Um retrofit de uma casa antiga que tinha um espaço interessante. Algumas divisões puderam ser
@@ -303,7 +312,7 @@
                 interessante.
               </p>
             </div>
-            <div class="col-md-6 wrapper-img-casa order-lg-0 ">
+            <div class="col-md-6 wrapper-img-casa order-lg-0 order-0  ">
               <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide"><img src="./assets/img/CASAS/CASA-GIRAFFAS/casa-giraffas-01.jpg" alt="">
@@ -322,6 +331,8 @@
             </div>
 
           </div>
+
+          <!-- 05 -->
           <div
             class="row content d-flex justify-content-center flex-sm-column flex-md-row flex-lg-row  align-items-center ">
             <div class="col-md-6  wrapper-img-casa order-lg-0 ">
@@ -352,6 +363,8 @@
 
           </div>
         </div>
+
+        <!-- Botão ocultar  -->
         <div class="row d-flex justify-content-center align-items-center my-5 ">
           <button id="toggleButton" class="btn-projetos">Veja mais</button>
         </div>
@@ -530,15 +543,17 @@
         © 2023 Copyright
 
       </div>
+
       <!-- Copyright -->
+
+     
     </footer>
     <!-- Footer -->
 
-    <!-- <div id="whatsapp-button">
-      <dotlottie-player src="https://lottie.host/a97fabdb-9746-424c-9330-d81f164d2cfa/SwvlewePRN.json"
-        background="transparent" speed="1" loop autoplay></dotlottie-player>
-    </div> -->
 
+  
+
+  
   </main><!-- End #main -->
 
 

@@ -111,9 +111,11 @@ function checkScroll() {
     menu.style.display = "flex";
     header.style.padding = "10px 0px";
     logo.style.maxWidth = "150px";
-    menu.style.justifyContent = "space-around";
 
 
+    if (screen.width > 1024) {
+      menu.style.justifyContent = "space-around";
+    }
 
   } else {
     // Remove a classe 'scrolled' quando a página está no topo

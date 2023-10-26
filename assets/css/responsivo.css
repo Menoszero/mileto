@@ -173,7 +173,7 @@
     .section-threee p {
 
         align-self: start;
-        padding-top: 120px;
+        padding-top: 80px;
         font-size: 1em;
         width: 70%;
         margin-right: 0px;
@@ -412,7 +412,7 @@
         width: 70%;
         margin-right: 0px;
         text-align: center;
-        margin-top: -400px;
+        margin-top: -200px;
     }
 
     .section-threee .slide-eduardo {
@@ -433,12 +433,11 @@
 
 }
 
-@media (min-width: 1441px) {
+@media (min-width: 1440px) {
     body {
-        max-width: 1440px;
+        max-width: 1366px;
         margin: 0 auto;
         overflow-x: hidden;
-
 
     }
 
