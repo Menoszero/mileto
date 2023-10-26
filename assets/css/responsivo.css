@@ -91,9 +91,18 @@
         display: none;
     }
 
+
     #whatsapp-button {
-        width: 48px;
-        height: 48px;
+        width: 38px;
+        height: 38px;
+        background-color: #25d366;
+        border: none;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 3vh;
+        right: 3vw;
+        cursor: pointer;
+        z-index: 10000;
     }
 
     /*--------------------------------------------------------------
@@ -175,7 +184,7 @@
     .section-threee p {
 
         align-self: start;
-        padding-top: 60px;
+        padding-top: 80px;
         font-size: 1em;
         width: 90%;
         margin-right: 0px;
@@ -183,13 +192,15 @@
         line-height: 1.5rem;
     }
 
-
+    .section-threee .swiper-wrapper {
+        height: 100vh;
+    }
 
 
 
     .section-threee .slide-eduardo {
         background-image: url(../img/PERSONA-02-MOBILE.jpg);
-        background-size: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         height: 100vh;
@@ -197,7 +208,7 @@
 
     .section-threee .slide-carlos {
         background-image: url(../img/PERSONA-01-MOBILE.jpg);
-        background-size: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         height: 100vh;
@@ -288,9 +299,10 @@
 }
 
 /* Responsivo Tablet    */
-@media (min-width: 768px) and (max-width:1024px) {
+@media (min-width: 767px) and (max-width:1024px) {
     body {
         overflow-x: hidden !important;
+        width: 100vw;
     }
 
     #menu {
@@ -312,7 +324,7 @@
 
     #hero {
         width: 100vw;
-        height: 100vh;
+        height: 60vh;
         text-align: top;
         background-image: url(../img/herobg.jpg);
         background-attachment: scroll;
@@ -375,8 +387,16 @@
     }
 
     #whatsapp-button {
-        width: 60px;
-        height: 60px;
+        width: 68px;
+        height: 68px;
+        background-color: #25d366;
+        border: none;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 5vh;
+        right: 5vw;
+        cursor: pointer;
+        z-index: 10000;
     }
 
     .metodo {
@@ -467,7 +487,7 @@
 
         position: fixed;
         top: 0;
-        right: -100%;
+        right: -200%;
         width: 100%;
         max-width: 400px;
         bottom: 0;
@@ -479,17 +499,20 @@
         position: absolute;
         inset: 0;
         margin: 0 auto;
-        padding: 0px 50px 50px 0;
+        padding: 0px 0px 0px 0px;
         margin: 0;
         background: rgba(0, 0, 0, 0.8);
         overflow-y: auto;
+       
         transition: 0.3s;
         z-index: 9998;
         display: flex;
         flex-direction: column;
         justify-content: center;
         height: 100vh;
-        
+        width: 100vw;
+        align-items: center;
+
     }
 
     .navbar a,
