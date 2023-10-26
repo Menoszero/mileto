@@ -1,10 +1,12 @@
 /* Responsivo Celular  */
 
+
+
 @media (max-width: 767px) {
 
 
     body {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
 
     #menu {
@@ -27,7 +29,7 @@
 --------------------------------------------------------------*/
     #hero {
         width: 100vw;
-        height: calc(100vh - 80px);
+        height: 100vh;
         text-align: top;
         background-image: url(../img/herobg.jpg);
         background-attachment: scroll;
@@ -99,7 +101,7 @@
 --------------------------------------------------------------*/
     .banner h3 {
 
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
 
@@ -137,9 +139,9 @@
         padding-bottom: 30px;
     }
 
-    .metodo .section-left h3 {
+    .metodo h3 {
         text-align: center;
-        font-size: 1rem;
+        font-size: 1.5rem;
         width: 100%;
     }
 
@@ -173,17 +175,15 @@
     .section-threee p {
 
         align-self: start;
-        padding-top: 80px;
+        padding-top: 60px;
         font-size: 1em;
-        width: 70%;
+        width: 90%;
         margin-right: 0px;
         text-align: center;
         line-height: 1.5rem;
     }
 
-    .slide-ceo {
-        height: 130vh;
-    }
+
 
 
 
@@ -204,55 +204,47 @@
     }
 
     /*--------------------------------------------------------------
-# Section Four
+# Projeto
 --------------------------------------------------------------*/
-    .section-for {
+    .projetos {
         width: 90%;
         margin: 0 auto;
         overflow-x: hidden;
     }
 
-    .section-four .mySwiper .swiper-slide img {
+    .projetos .mySwiper .swiper-slide img {
         width: 90%;
     }
 
-    .section-four .order-imagem-projeto {
+    .projetos .order-imagem-projeto {
         order: 1;
     }
 
-    .section-four .order-texto-projeto {
+    .projetos .order-texto-projeto {
         order: 2;
     }
 
-    .section-four .content h4 {
+    .projetos .content h4 {
         text-align: center;
         margin: 10px auto;
     }
 
-    .section-four .content p {
+    .projetos .content p {
         text-align: center;
         width: 100%;
     }
 
-    .section-four .circulo-projetos-p {
 
-
-        top: 100px;
-        left: 50px;
-
-    }
-
-
-    .section-four .circulo-projetos-g {
-
-        top: -70px;
-        left: 190px;
-
-    }
 
     .btn-projetos {
 
         width: 70%;
+
+    }
+
+    .projetos h3 {
+
+        font-size: 1.5rem;
 
     }
 
@@ -298,7 +290,7 @@
 /* Responsivo Tablet    */
 @media (min-width: 768px) and (max-width:1024px) {
     body {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
 
     #menu {
@@ -320,12 +312,12 @@
 
     #hero {
         width: 100vw;
-        height: calc(100vh + 220px);
+        height: 100vh;
         text-align: top;
         background-image: url(../img/herobg.jpg);
         background-attachment: scroll;
         background-size: 100%;
-        background-position: bottom;
+        background-position: contain;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -433,20 +425,24 @@
 
 }
 
-@media (min-width: 1440px) {
-    body {
-        max-width: 1366px;
-        margin: 0 auto;
-        overflow-x: hidden;
+@media (min-width: 1441px) {
 
-    }
 
     #hero {
 
-        height: 900px;
-        background-size: contain;
+        width: 100vw;
+        height: 100vh;
+        background: url("../img/bgwoodscreen.png") no-repeat center;
+        background-size: 100%;
+        background-attachment: fixed;
+        position: relative;
+
     }
 
+    #hero .circulo-p,
+    .circulo-g {
+        display: none;
+    }
 
 }
 
@@ -468,7 +464,7 @@
 
 @media (max-width: 1024px) {
     .navbar {
-        
+
         position: fixed;
         top: 0;
         right: -100%;
@@ -493,6 +489,7 @@
         flex-direction: column;
         justify-content: center;
         height: 100vh;
+        
     }
 
     .navbar a,
